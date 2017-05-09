@@ -5,7 +5,7 @@
 div#dropdownNavMenuContainer div#dropdownNavMenuTitle li a, 
 div#dropdownSubMenuContainer div#dropdownSubMenuTitle li a, 
 a {
-    color: darkseagreen;
+    color: deepskyblue;
 }
 .blogsFixedTable .entryContentContainerTD.blogsWrapText h4.bidiAware {
     font-family:Trebuchet MS,Helvetica,sans-serif;
@@ -27,4 +27,19 @@ a {
 
 .lotusui30_body .lotusFrame {
     min-width: 0; 
+}
+.lotusui30_layout .lotusColRight {
+    width: 18%;
+    max-width: 250px;
+}
+.lotusui30_layout .lotusColLeft {
+    width: 18%;
+    max-width: 220px;
+}
+
+.lotusui30_layout .lotusColLeft:after {
+    border-left: 1000vw solid orange;
+    background: none;
+    border-right: none;
+    margin-left: -980vw;
 }
