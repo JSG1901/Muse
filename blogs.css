@@ -7,3 +7,17 @@ div#dropdownSubMenuContainer div#dropdownSubMenuTitle li a,
 a {
     color: coral;
 }
+
+.blogsFixedTable .entryContentContainerTD.blogsWrapText h4.bidiAware,
+.blogsFixedTable .entryContentContainerTD.blogsWrapText .lotusMeta.lotusLeft,
+.lotusLayout.lotusHeader.blogsWrapText h1 {
+    display:xnone;
+}
+
+.blog .entryContentContainer.blogsWrapText {
+    margin-top: 0;
+}
+
+/*
+font-family:Trebuchet MS,Helvetica,sans-serif;"><span style="font-size:18.0pt;"><span style="color:#4b0082
+*/

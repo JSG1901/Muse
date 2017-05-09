@@ -5,19 +5,6 @@ div#dropdownSubMenuContainer div#dropdownSubMenuTitle li a,
 a {
     color: red;
 }
-.blogsFixedTable .entryContentContainerTD.blogsWrapText h4.bidiAware,
-.blogsFixedTable .entryContentContainerTD.blogsWrapText .lotusMeta.lotusLeft,
-.lotusLayout.lotusHeader.blogsWrapText h1{
-    display:none;
-}
-
-.blog .entryContentContainer.blogsWrapText {
-    margin-top: 0;
-}
-
-.blog .entryContentContainer.blogsWrapText div {
-    padding-top: 0;
-}
 
 .lotusui30 div.lotusHeader {
     margin-bottom: 0;
