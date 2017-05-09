@@ -5,7 +5,7 @@
 div#dropdownNavMenuContainer div#dropdownNavMenuTitle li a, 
 div#dropdownSubMenuContainer div#dropdownSubMenuTitle li a, 
 a {
-    color: coral;
+    color: greenyellow;
 }
 .blogsFixedTable .entryContentContainerTD.blogsWrapText h4.bidiAware {
     font-family:Trebuchet MS,Helvetica,sans-serif;
@@ -26,5 +26,5 @@ a {
 }
 
 .lotusui30_body .lotusFrame {
-    min-width: none ;
+    min-width: none;
 }
