@@ -6,7 +6,8 @@ a {
     color: red;
 }
 .blogsFixedTable .entryContentContainerTD.blogsWrapText h4.bidiAware,
-.blogsFixedTable .entryContentContainerTD.blogsWrapText .lotusMeta.lotusLeft {
+.blogsFixedTable .entryContentContainerTD.blogsWrapText .lotusMeta.lotusLeft,
+.lotusLayout.lotusHeader.blogsWrapText h1{
     display:none;
 }
 
@@ -16,11 +17,6 @@ a {
 
 .blog .entryContentContainer.blogsWrapText div {
     padding-top: 0;
-}
-
-.lotusLayout.lotusHeader.blogsWrapText h1 {
-    font-size: 1em;
-    font-weight: 600;
 }
 
 .lotusui30 div.lotusHeader {
