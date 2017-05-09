@@ -11,6 +11,9 @@ a {
     font-family:Trebuchet MS,Helvetica,sans-serif;
     font-size: 18.0pt;
     color: #4b0082;
+    margin: 0;
+    padding-bottom: 8px;
+    border-bottom: 1pt solid #ddd;
 }
 
 .blogsFixedTable .entryContentContainerTD.blogsWrapText .lotusMeta.lotusLeft,
@@ -20,4 +23,8 @@ a {
 
 .blog .entryContentContainer.blogsWrapText {
     margin-top: 0;
+}
+
+.lotusui30_body .lotusFrame {
+    min-width: none ;
 }
