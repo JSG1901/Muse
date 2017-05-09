@@ -5,7 +5,7 @@
 div#dropdownNavMenuContainer div#dropdownNavMenuTitle li a, 
 div#dropdownSubMenuContainer div#dropdownSubMenuTitle li a, 
 a {
-    color: mediumpurple;
+    color: royalblue;
 }
 .blogsFixedTable .entryContentContainerTD.blogsWrapText h4.bidiAware {
     font-family:Trebuchet MS,Helvetica,sans-serif;
@@ -54,4 +54,8 @@ div#dropdownNavMenuContainer div#dropdownNavMenuSelection,
 div#dropdownSubMenuContainer div#dropdownSubMenuSelection {
     max-width: 8vw;
     white-space: normal;
+}
+
+.lotusui30 div.lotusPlaceBar h2 {
+    margin-left: 20vw;
 }
