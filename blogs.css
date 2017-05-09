@@ -25,9 +25,11 @@ a {
     margin-top: 0;
 }
 
+.lotusui30_body .lotusMain,
 .lotusui30_body .lotusFrame {
     min-width: 0; 
 }
+ 
 .lotusui30_layout .lotusColRight {
     width: 18%;
     max-width: 250px;
