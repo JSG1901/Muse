@@ -1,0 +1,9 @@
+/* blogs.css */
+
+.lotusui30 a, 
+.lotusui30 a:visited, 
+div#dropdownNavMenuContainer div#dropdownNavMenuTitle li a, 
+div#dropdownSubMenuContainer div#dropdownSubMenuTitle li a, 
+a {
+    color: coral;
+}
