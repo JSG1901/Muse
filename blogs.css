@@ -140,6 +140,9 @@ div#dropdownSubMenuContainer div#dropdownSubMenuSelection {
 }
 
 @media(min-width: 660px) {
+    .lotusui30 .lotusActionBar {
+        height: 4.5em;
+    }
     .lotusui30 .lotusMain span.lotusBtn a {
         margin-top: ;
     }
@@ -170,6 +173,9 @@ div#dropdownSubMenuContainer div#dropdownSubMenuSelection {
     }
 }
 @media(min-width: 768px) {
+    .lotusui30 .lotusActionBar {
+        height: 4em;
+    }
     /* break to bootstrap sm */
     .lotusui30_layout .lotusColRight.col-sm-3,
     .lotusui30_layout .lotusColLeft.col-sm-3 {
