@@ -118,6 +118,15 @@ div#dropdownSubMenuContainer div#dropdownSubMenuSelection {
     margin-right: 0; 
     margin-left: 0; 
 }
+.lotusui30 div.lotusPlaceBar h2 {
+    top: -20px;
+}
+.lotusliveui, 
+lotusliveui30, .scloud3 {
+    font: normal 1.1em/1.5 "Helvetica Neue", Sans-Serif,Helvetica, Arial, Roboto;
+}
+
+
 @media(min-width: 768px) {
     /* break to bootstrap sm */
     .lotusui30_layout .lotusColRight.col-sm-3,
