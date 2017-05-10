@@ -7,6 +7,15 @@ div#dropdownSubMenuContainer div#dropdownSubMenuTitle li a,
 a {
     color: slategray;
 }
+.redBorder {
+    border: 1pt solid red;
+}
+.blueBorder {
+    border: 1pt solid blue;
+}
+.greenBorder {
+    border: 1pt solid green;
+}
 .blogsFixedTable .entryContentContainerTD.blogsWrapText h4.bidiAware {
     font-family:Trebuchet MS,Helvetica,sans-serif;
     font-size: 18.0pt;
