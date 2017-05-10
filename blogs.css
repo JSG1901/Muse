@@ -162,7 +162,7 @@ div#dropdownSubMenuContainer div#dropdownSubMenuSelection {
     /* break to bootstrap xs (xxs was added to be smaller) */
     div#dropdownNavMenuContainer div#dropdownNavMenuSelection, 
     div#dropdownSubMenuContainer div#dropdownSubMenuSelection {
-        max-width: 2vw;
+        max-width: 20vw;
         white-space: normal;
     }  
     .lotusui30_layout .lotusColRight.col-xs-3,
