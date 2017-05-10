@@ -160,6 +160,9 @@ div#dropdownSubMenuContainer div#dropdownSubMenuSelection {
         max-width: 30vw;
         white-space: normal;
     }
+    .lotusui30 .lotusTitleBar .lotusRightCorner {
+        display:none;
+    }
 }
 @media(min-width: 660px) {
     /* break to bootstrap xs (xxs was added to be smaller) */
@@ -193,13 +196,16 @@ div#dropdownSubMenuContainer div#dropdownSubMenuSelection {
         width: 100%;
     }
 }
-@media(min-width: 768px) {
-    /* break to bootstrap sm */
+@media(min-width: 725px) {
+    /* custom break */
     div#dropdownNavMenuContainer div#dropdownNavMenuSelection, 
     div#dropdownSubMenuContainer div#dropdownSubMenuSelection {
         max-width: 20vw;
         white-space: normal;
     } 
+}
+@media(min-width: 768px) {
+    /* break to bootstrap sm */ 
     .lotusui30 .lotusActionBar {
         height: 4em;
     }
