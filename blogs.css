@@ -5,7 +5,7 @@
 div#dropdownNavMenuContainer div#dropdownNavMenuTitle li a, 
 div#dropdownSubMenuContainer div#dropdownSubMenuTitle li a, 
 a {
-    color: palevioletred;
+    /* color: palevioletred; */
 }
 .redBorder {
     border: 1pt solid red;
