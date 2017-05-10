@@ -119,6 +119,9 @@ div#dropdownSubMenuContainer div#dropdownSubMenuSelection {
     top: -30px;
     position: relative;
 }
+.lotusui30_layout .lotusColLeft {
+    background: none;
+}
 .lotusui30_layout .lotusColLeft,
 .lotusui30_layout .lotusColRight {
     margin-right: 0; 
