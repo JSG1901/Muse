@@ -129,8 +129,14 @@ div#dropdownSubMenuContainer div#dropdownSubMenuSelection {
 .lotusui30_layout .lotusMain .lotusContent {
     padding: 0 15px 0 15px;
 }
+.lotusui30 .lotusMain span.lotusBtn a {
+    margin-top: 10px;
+}
 
 @media(min-width: 660px) {
+    .lotusui30 .lotusMain span.lotusBtn a {
+        margin-top: ;
+    }
     /* break to bootstrap xs (xxs was added to be smaller) */
     .lotusui30_layout .lotusColRight.col-xs-3,
     .lotusui30_layout .lotusColLeft.col-xs-3 {
@@ -158,9 +164,6 @@ div#dropdownSubMenuContainer div#dropdownSubMenuSelection {
     }
 }
 @media(min-width: 768px) {
-    .lotusui30 .lotusMain span.lotusBtn a {
-        margin-top: 10px;
-    }
     /* break to bootstrap sm */
     .lotusui30_layout .lotusColRight.col-sm-3,
     .lotusui30_layout .lotusColLeft.col-sm-3 {
