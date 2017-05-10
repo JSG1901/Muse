@@ -122,8 +122,12 @@ div#dropdownSubMenuContainer div#dropdownSubMenuSelection {
     top: -20px;
 }
 .lotusliveui, 
-lotusliveui30, .scloud3 {
+.lotusliveui30, 
+.scloud3 {
     font: normal 1.1em/1.5 "Helvetica Neue", Sans-Serif,Helvetica, Arial, Roboto;
+}
+.lotusui30_layout .lotusMain .lotusContent {
+    padding: 0 15px 0 15px;
 }
 
 @media(min-width: 660px) {
