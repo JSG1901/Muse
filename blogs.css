@@ -39,11 +39,11 @@ a {
     min-width: 0; 
 }
  
-.lotusui30_layout .lotusColRight {
+.lotusui30_layout .lotusColRight .lotusSection {
     width: 100%;
     max-width: none;
 }
-.lotusui30_layout .lotusColLeft {
+.lotusui30_layout .lotusColLeft .personinlinemenu {
     width: 100%;
     max-width: none;
     background: white;
