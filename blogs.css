@@ -24,16 +24,13 @@ a {
     padding-bottom: 8px;
     border-bottom: 1pt solid #ddd; 
 }
-
 .blogsFixedTable .entryContentContainerTD.blogsWrapText .lotusMeta.lotusLeft,
 .lotusLayout.lotusHeader.blogsWrapText h1 {
     display:none;
 }
-
 .blog .entryContentContainer.blogsWrapText {
     margin-top: 0;
 }
-
 .lotusui30_body .lotusMain,
 .lotusui30_body .lotusFrame {
     min-width: 0; 
@@ -47,20 +44,17 @@ a {
     width: 100%;
     max-width: none;
 }
-
 .lotusui30_layout .lotusColLeft .personinlinemenu {
     width: 100%;
     max-width: none;
     background: white;
 }
-
 .lotusui30_layout .lotusColLeft:after {
     border-left: 1000vw solid white;
     background: none;
     border-right: none;
     margin-left: -980vw;
 }
-
 div#dropdownNavMenuContainer, div#dropdownSubMenuContainer {
     width: 90%;
 }
@@ -69,11 +63,35 @@ div#dropdownSubMenuContainer div#dropdownSubMenuSelection {
     max-width: 8vw;
     white-space: normal;
 }
-
 .lotusui30 div.lotusPlaceBar h2 {
     margin-left: 20vw;
 }
 .lotusui30 .lotusLike {
     top: -30px;
     position: relative;
+}
+@media(max-width: 1199px) {
+    lotusui30_layout .lotusColRight {
+        background: red;
+    }
+}
+@media(max-width: 992px) {
+    lotusui30_layout .lotusColRight {
+        background: blue;
+    }
+}
+@media(max-width: 768px) {
+    lotusui30_layout .lotusColRight {
+        background: orange;
+    }
+}
+@media(max-width: 660px) {
+    lotusui30_layout .lotusColRight {
+        background: gray;
+    }
+}
+@media(max-width: 450px) {
+    lotusui30_layout .lotusColRight {
+        background: yellow;
+    }
 }
