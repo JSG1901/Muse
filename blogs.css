@@ -35,48 +35,48 @@ a {
 .lotusui30_body .lotusFrame {
     min-width: 0; 
 }
-.lotusui30_layout .lotusColRight.col-xs-3,
-.lotusui30_layout .lotusColLeft.col-xs-3 {
+.lotusui30_layout .lotusColRight.col-xxs-3,
+.lotusui30_layout .lotusColLeft.col-xxs-3 {
     width: 25%;
     min-height:1px;
     padding-left: 15px;
     padding-right: 15px;
     box-sizing: border-box;
 }
-.lotusui30_layout .lotusColRight.col-xs-4,
-.lotusui30_layout .lotusColLeft.col-xs-4 {
+.lotusui30_layout .lotusColRight.col-xxs-4,
+.lotusui30_layout .lotusColLeft.col-xxs-4 {
     width: 33%;
     min-height:1px;
     padding-left: 15px;
     padding-right: 15px;
     box-sizing: border-box;
 }
-.lotusui30_layout .lotusColRight.col-xs-6,
-.lotusui30_layout .lotusColLeft.col-xs-6 {
+.lotusui30_layout .lotusColRight.col-xxs-6,
+.lotusui30_layout .lotusColLeft.col-xxs-6 {
     width: 50%;
     min-height:1px;
     padding-left: 15px;
     padding-right: 15px;
     box-sizing: border-box;
 }
-.lotusui30_layout .lotusColRight.col-xs-8,
-.lotusui30_layout .lotusColLeft.col-xs-8 {
+.lotusui30_layout .lotusColRight.col-xxs-8,
+.lotusui30_layout .lotusColLeft.col-xxs-8 {
     width: 66%;
     min-height:1px;
     padding-left: 15px;
     padding-right: 15px;
     box-sizing: border-box;
 }
-.lotusui30_layout .lotusColRight.col-xs-9,
-.lotusui30_layout .lotusColLeft.col-xs-9 {
+.lotusui30_layout .lotusColRight.col-xxs-9,
+.lotusui30_layout .lotusColLeft.col-xxs-9 {
     width: 75%;
     min-height:1px;
     padding-left: 15px;
     padding-right: 15px;
     box-sizing: border-box;
 }
-.lotusui30_layout .lotusColRight.col-xs-12,
-.lotusui30_layout .lotusColLeft.col-xs-12 {
+.lotusui30_layout .lotusColRight.col-xxs-12,
+.lotusui30_layout .lotusColLeft.col-xxs-12 {
     width: 100%;
     min-height:1px;
     padding-left: 15px;
@@ -126,7 +126,33 @@ lotusliveui30, .scloud3 {
     font: normal 1.1em/1.5 "Helvetica Neue", Sans-Serif,Helvetica, Arial, Roboto;
 }
 
-
+@media(min-width: 660px) {
+    /* break to bootstrap xs (xxs was added to be smaller) */
+    .lotusui30_layout .lotusColRight.col-xs-3,
+    .lotusui30_layout .lotusColLeft.col-xs-3 {
+        width: 25%;
+    }
+    .lotusui30_layout .lotusColRight.col-xs-4,
+    .lotusui30_layout .lotusColLeft.col-xs-4 {
+        width: 33%;
+    }
+    .lotusui30_layout .lotusColRight.col-xs-6,
+    .lotusui30_layout .lotusColLeft.col-xs-6 {
+        width: 50%;
+    }
+    .lotusui30_layout .lotusColRight.col-xs-8,
+    .lotusui30_layout .lotusColLeft.col-xs-8 {
+        width: 66%;
+    }
+    .lotusui30_layout .lotusColRight.col-xs-9,
+    .lotusui30_layout .lotusColLeft.col-xs-9 {
+        width: 75%;
+    }
+    .lotusui30_layout .lotusColRight.col-xs-12,
+    .lotusui30_layout .lotusColLeft.col-xs-12 {
+        width: 100%;
+    }
+}
 @media(min-width: 768px) {
     /* break to bootstrap sm */
     .lotusui30_layout .lotusColRight.col-sm-3,
@@ -210,9 +236,7 @@ lotusliveui30, .scloud3 {
 }
 
 
-@media(max-width: 660px) {
-    
-}
+
 @media(max-width: 450px) {
     
 }
