@@ -154,7 +154,7 @@ div#dropdownSubMenuContainer div#dropdownSubMenuSelection {
     }
     div#dropdownNavMenuContainer div#dropdownNavMenuSelection, 
     div#dropdownSubMenuContainer div#dropdownSubMenuSelection {
-        max-width: 25vw;
+        max-width: 30vw;
         white-space: normal;
     }
 }
