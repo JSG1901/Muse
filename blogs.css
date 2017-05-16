@@ -152,6 +152,8 @@ div#dropdownSubMenuContainer div#dropdownSubMenuSelection {
     white-space: normal;
 }
 ul#blogsActionBar {
+    position: absolute;
+    left: 50vw;
     margin: 0;
     padding: 0;
 }
