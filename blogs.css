@@ -16,7 +16,8 @@ a {
 .greenBorder {
     border: 1pt solid green;
 }
-.blogsFixedTable .entryContentContainerTD.blogsWrapText h4.bidiAware {
+.blogsFixedTable .entryContentContainerTD.blogsWrapText h4.bidiAware,
+.blogsFixedTable .entryContentContainerTD.blogsWrapText h4.bidiAware a {
     font-family:Trebuchet MS,Helvetica,sans-serif;
     font-size: 18.0pt;
     color: #4b0082;
