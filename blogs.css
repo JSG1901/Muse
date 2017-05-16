@@ -154,9 +154,11 @@ div#dropdownSubMenuContainer div#dropdownSubMenuSelection {
 }
 ul#blogsActionBar {
     position: absolute;
-    left: 50vw;
+    left: 72vw;
+    top: 300px;
     margin: 0;
     padding: 0;
+    text-align: left;
 }
 ul#blogsActionBar li {
     display:block;
