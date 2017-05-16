@@ -25,6 +25,9 @@ a {
     padding-bottom: 8px;
     border-bottom: 1pt solid #ddd; 
 }
+.blogsFixedTable .entryContentContainerTD.blogsWrapText h4.bidiAware a {
+    border-bottom:none;   
+}
 .blogsFixedTable .entryContentContainerTD.blogsWrapText .lotusMeta.lotusLeft,
 .lotusLayout.lotusHeader.blogsWrapText h1 {
     display:none;
