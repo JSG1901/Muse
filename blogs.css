@@ -151,7 +151,16 @@ div#dropdownSubMenuContainer div#dropdownSubMenuSelection {
     max-width: 11vw;
     white-space: normal;
 }
-
+ul#blogsActionBar {
+    margin: 0;
+    padding: 0;
+}
+ul#blogsActionBar li {
+    display:block;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
 
 @media(max-width:768px) {
     .lotusui30 .lotusActionBar {
