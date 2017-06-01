@@ -1,0 +1,25 @@
+{
+  "extensions": [
+    {
+      "application": "JSG_Bootstrap_Demo_1",
+      "payload": {
+        "match": {
+          "user-name": "scott.good@us.ibm.com",
+          "url": "homepage"
+        },
+        "include-files": [
+          "scottgood/bootstrap_demo_1.js"
+        ]
+      },
+      "name": "JSG Bootstrap Demo 1",
+      "type": "com.ibm.homepage"
+    }
+  ],
+  "name": "JSG_Bootstrap_Demo_1",
+  "description": "First attempt at injecting Bootstrap into the Connections interface via MUSE.",
+  "services": [
+    "Muse"
+  ],
+  "title": "JSG Bootstrap Demo 1",
+  "app_id": "ibm.connections.homepage.dpc.homepagedemo"
+}
