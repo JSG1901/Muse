@@ -1,4 +1,4 @@
-#hpUserPhoto a {
+#xhpUserPhoto a {
     width: 120px;
     height: 120px;
     background: url(https://www.androidcentral.com/sites/androidcentral.com/files/styles/w550h500/public/wallpapers/blue-square-tiles-ebd.jpg?itok=p6J0DUCA) no-repeat;
@@ -8,7 +8,7 @@
     font: normal 1.3em/1.5 "Helvetica Neue", Helvetica, Arial, Roboto, sans-serif;
 }
 .lotusui30 .lotusTitleBar2 .lotusInner .titleBarBody img {
-    display:none;
+    display:xnone;
 }
 #homepageLeftNavigationMenuContainer {
     margin-top: 135px;
@@ -16,7 +16,7 @@
 .lotusui30.hasSideNav .lotusTitleBar2 .lotusInner .titleBarBody {
     top: 50px;
 }
-#hpUserPhoto a {
+#xhpUserPhoto a {
     top: -12px;
     left: -12px;
 }
@@ -73,7 +73,7 @@
 @media(max-width: 991px) {
     /* side nav to horizontal */
     
-    .lotusTitleBar2 .lotusInner #hpUserPhoto a {
+    .lotusTitleBar2 .lotusInner #xhpUserPhoto a {
         width: 60px;
         height: 60px;
     }
