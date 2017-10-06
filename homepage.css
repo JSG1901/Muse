@@ -120,3 +120,16 @@
         zoom: 0.9;
     }
 }
+@media(max-width:590px) {
+    .lotusui30 .lotusMenu li {
+        float:none;
+    }
+    .lotusui30 .lotusMenu .lotusHeaderSelected, 
+    .lotusui30 .lotusMenu li.lotusSelected, 
+    .lotusui30 .lotusMenu li.lotusSelected:active, 
+    .lotusui30 .lotusMenu li.lotusSelected:focus, 
+    .lotusui30 .lotusMenu li.lotusSelected:hover, 
+    .lotusui30 .lotusMenu li.lotusSelected:visited {
+        float: none;
+    }
+}
