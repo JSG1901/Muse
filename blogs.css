@@ -40,10 +40,10 @@ ul#blogsActionBar li {
     padding: 0;
     border: none;
 }
-body.lotusui30_layout .lotusColLeft {
+body .lotusui30_layout .lotusColLeft {
     background-color: white;
 }
-.lotusui30_layout .lotusColLeft:after {
+body .lotusui30_layout .lotusColLeft:after {
     border-left:none;
     border-right:none;
     background-color:white;
