@@ -2,7 +2,7 @@
 .lotusliveui, 
 .lotusliveui30, 
 .scloud3 {
-    font: normal 1.3em/1.5 "Helvetica Neue", Helvetica, Arial, Roboto, sans-serif;
+    font: normal 1.25em/1.5 "Helvetica Neue", Helvetica, Arial, Roboto, sans-serif;
 }
 .blogsFixedTable .entryContentContainerTD.blogsWrapText h4.bidiAware,
 .blogsFixedTable .entryContentContainerTD.blogsWrapText h4.bidiAware a {
@@ -40,7 +40,7 @@ ul#blogsActionBar li {
     padding: 0;
     border: none;
 }
-.lotusui30_layout .lotusColLeft {
+body.lotusui30_layout .lotusColLeft {
     background-color: white;
 }
 .lotusui30_layout .lotusColLeft:after {
