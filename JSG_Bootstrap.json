@@ -1,25 +1,27 @@
 {
-  "extensions": [
-    {
-      "application": "JSG_Bootstrap_Demo_1",
-      "payload": {
-        "match": {
-          "user-name": "scott.good@us.ibm.com",
-          "url": "homepage"
-        },
-        "include-files": [
-          "scottgood/bootstrap_demo_1.js"
-        ]
-      },
-      "name": "JSG Bootstrap Demo 1",
-      "type": "com.ibm.homepage"
+    "extensions": [
+        {
+            "application": "JSG_Bootstrap_Demo_1",
+            "payload": {
+                "match": {
+                    "user-name": "Scott Good",
+                    "url": "homepage"
+                },
+                "include-files": [
+                    "scottgood/bootstrap_demo_1.js"
+                ]
+            },
+            "name": "JSG Bootstrap Demo 1",
+            "id": "88f3707e-0d1b-47f5-9b1d-eadc989071d3",
+            "type": "com.ibm.homepage"
     }
   ],
-  "name": "JSG_Bootstrap_Demo_1",
-  "description": "First attempt at injecting Bootstrap into the Connections interface via MUSE.",
-  "services": [
+    "name": "JSG_Bootstrap_Demo_1",
+    "description": "First attempt at injecting Bootstrap into the Connections interface via MUSE.",
+    "services": [
     "Muse"
   ],
-  "title": "JSG Bootstrap Demo 1",
-  "app_id": "ibm.connections.homepage.dpc.homepagedemo"
+    "id": "c157b2bf-9957-474e-884f-8b09dcef1ce0",
+    "title": "JSG Bootstrap Demo 1",
+    "app_id": "ibm.connections.homepage.jsg.homepagedemo"
 }

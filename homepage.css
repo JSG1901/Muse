@@ -1,0 +1,69 @@
+#hpUserPhoto a {
+    width: 120px;
+    height: 120px;
+    background: url(https://www.androidcentral.com/sites/androidcentral.com/files/styles/w550h500/public/wallpapers/blue-square-tiles-ebd.jpg?itok=p6J0DUCA) no-repeat;
+    background-size: cover;
+}
+.lotusui30 .lotusTitleBar2 .lotusInner .titleBarBody img {
+    display:none;
+}
+#homepageLeftNavigationMenuContainer {
+    margin-top: 135px;
+}
+.lotusui30.hasSideNav .lotusTitleBar2 .lotusInner .titleBarBody {
+    top: 50px;
+}
+#hpUserPhoto a {
+    top: -12px;
+    left: -12px;
+}
+.lotusui30_layout .lotusColRight {
+    margin-top: -13px;
+}
+
+@media(max-width:768px) {
+    #homepageLeftNavigationMenuContainer {
+        margin-top: 0;
+    }
+    .lotusui30 .lotusMenu .lotusMenuSection {
+        margin: -15px 0 0 150px;
+        padding: 0;
+        overflow: visible;
+    }
+    #lotusContent {
+        padding-top: 20px;
+        border-top: 1pt solid #eee;
+    }
+}
+@media(min-width: 660px) {
+    /* break to bootstrap xs (xxs was added to be smaller) */
+    #homepageLeftNavigationMenuContainer {
+        margin-top: 135px;
+    }
+    .lotusui30 .lotusMenu .lotusMenuSection {
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+    }
+    
+}
+@media(min-width: 725px) {
+    /* custom break */
+     
+}
+@media(min-width: 768px) {
+    /* break to bootstrap sm */ 
+    
+}
+@media(min-width: 992px) {
+    /* break to bootstrap md */
+    
+}
+@media(min-width: 1200px) {
+    /* break to bootstrap lg */
+    
+}
+
+@media(max-width: 450px) {
+    
+}
