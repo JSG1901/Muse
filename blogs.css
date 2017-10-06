@@ -28,7 +28,7 @@ body.scloud3 {
 
 ul#blogsActionBar {
     position: absolute;
-    left: 72vw;
+    left: 80vw;
     top: 300px;
     margin: 0;
     padding: 0;
@@ -48,6 +48,10 @@ body .lotusui30_layout .lotusColLeft:after {
     border-right:none;
     background-color:white;
 }
+body.lotusui30 div.lotusTitleBar .lotusInner {
+    display:none;
+}
+
 @media(max-width:768px) {
     
 }
