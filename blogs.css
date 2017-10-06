@@ -1,5 +1,7 @@
 /* blogs.css */
-.lotusliveui, .lotusliveui30, .scloud3 {
+.lotusliveui, 
+.lotusliveui30, 
+.scloud3 {
     font: normal 1.3em/1.5 "Helvetica Neue", Helvetica, Arial, Roboto, sans-serif;
 }
 .blogsFixedTable .entryContentContainerTD.blogsWrapText h4.bidiAware,
@@ -38,7 +40,14 @@ ul#blogsActionBar li {
     padding: 0;
     border: none;
 }
-
+.lotusui30_layout .lotusColLeft {
+    background-color: white;
+}
+.lotusui30_layout .lotusColLeft:after {
+    border-left:none;
+    border-right:none;
+    background-color:white;
+}
 @media(max-width:768px) {
     
 }
