@@ -1,5 +1,7 @@
 /* blogs.css */
-
+.lotusliveui, .lotusliveui30, .scloud3 {
+    font: normal 1.3em/1.5 "Helvetica Neue", Helvetica, Arial, Roboto, sans-serif;
+}
 .blogsFixedTable .entryContentContainerTD.blogsWrapText h4.bidiAware,
 .blogsFixedTable .entryContentContainerTD.blogsWrapText h4.bidiAware a {
     font-family:Trebuchet MS,Helvetica,sans-serif;

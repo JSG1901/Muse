@@ -49,8 +49,7 @@
         margin: 0;
         padding: 10px 0 0 0;
         overflow: visible;
-    }
-    
+    } 
 }
 @media(min-width: 725px) {
     /* custom break */
