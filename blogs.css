@@ -85,3 +85,8 @@ body.lotusui30_body .lotusMain {
         display:none;
     }
 }
+@media(max-width:1200px) {
+    ul#blogsActionBar {
+        top:0;
+    }
+}
