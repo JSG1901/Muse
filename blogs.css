@@ -51,7 +51,9 @@ body .lotusui30_layout .lotusColLeft:after {
 body.lotusui30 div.lotusTitleBar .lotusInner .lotusHeading {
     display:none;
 }
-
+body.lotusui30_body .lotusMain {
+    min-width: none;
+}
 @media(max-width:768px) {
     
 }
