@@ -1,0 +1,141 @@
+#hpUserPhoto a {
+    width: 120px;
+    height: 120px;
+    background: url(https://www.androidcentral.com/sites/androidcentral.com/files/styles/w550h500/public/wallpapers/blue-square-tiles-ebd.jpg?itok=p6J0DUCA) no-repeat;
+    background-size: cover;
+}
+.lotusliveui, .lotusliveui30, .scloud3 {
+    font: normal 1.3em/1.5 "Helvetica Neue", Helvetica, Arial, Roboto, sans-serif;
+}
+.lotusui30 .lotusTitleBar2 .lotusInner .titleBarBody img {
+    display:none;
+}
+#homepageLeftNavigationMenuContainer {
+    margin-top: 135px;
+}
+.lotusui30.hasSideNav .lotusTitleBar2 .lotusInner .titleBarBody {
+    top: 50px;
+}
+#hpUserPhoto a {
+    top: -12px;
+    left: -12px;
+}
+.lotusui30_layout .lotusColRight {
+    margin-top: -13px;
+}
+.cke_editable.cke_editable_themed.lconnShareboxCke {
+    font-size: 12px;
+}
+@media(max-width:768px) {
+    #homepageLeftNavigationMenuContainer {
+        margin-top: 0;
+    }
+    .lotusui30 .lotusMenu .lotusMenuSection {
+        margin: -15px 0 0 150px;
+        padding: 0;
+        overflow: visible;
+    }
+    #lotusContent {
+        padding-top: 20px;
+        border-top: 1pt solid #eee;
+    }
+}
+@media(min-width: 660px) {
+    /* break to bootstrap xs (xxs was added to be smaller) */
+    #homepageLeftNavigationMenuContainer {
+        margin-top: 135px;
+    }
+    .lotusui30 .lotusMenu .lotusMenuSection {
+        margin: 0;
+        padding: 10px 0 0 0;
+        overflow: visible;
+    }
+    
+}
+@media(min-width: 725px) {
+    /* custom break */
+     
+}
+@media(min-width: 768px) {
+    /* break to bootstrap sm */ 
+    .lotusui30_layout .lotusColRight.col-sm-12, 
+    .lotusui30_layout .lotusContent.col-sm-12, 
+    .lotusui30_layout .lotusColLeft.col-sm-12 {
+        /*height: 100px; */
+    }
+}
+@media(min-width: 992px) {
+    /* break to bootstrap md */
+    
+}
+@media(min-width: 1200px) {
+    /* break to bootstrap lg */
+    
+}
+@media(max-width: 991px) {
+    /* side nav to horizontal */
+    
+    .lotusTitleBar2 .lotusInner #hpUserPhoto a {
+        width: 60px;
+        height: 60px;
+    }
+    .lotusui30 .lotusMenu .lotusMenuSection {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        top: 130px;
+        left: 100px;
+    }
+    .lotusui30 .lotusMenu li {
+        zoom: 1;
+        float: left;
+    }
+    .lotusui30 .lotusMenu .lotusHeaderSelected, 
+    .lotusui30 .lotusMenu li.lotusSelected, 
+    .lotusui30 .lotusMenu li.lotusSelected:active, 
+    .lotusui30 .lotusMenu li.lotusSelected:focus, 
+    .lotusui30 .lotusMenu li.lotusSelected:hover, 
+    .lotusui30 .lotusMenu li.lotusSelected:visited {
+        position: relative;
+        margin: 0;
+        background-color: transparent;
+        border-top: none;
+        border-bottom: none;
+        color: #000;
+        border-left: 4px solid #4178be;
+        float: left;
+    }
+    .lotusui30 .lotusMenu li a, 
+    .lotusui30 .lotusMenu li a:visited {
+        margin: 0;
+        width: 100%;
+    }
+    .lotusui30 .lotusColRight .lotusSection2 .lotusHeading, 
+    .lotusui30 .lotusColRight .lotusSection2 .lotusHeading2, 
+    .lotusui30 .lotusMenu li.lotusSelected:first-child a {
+        width: 100%;
+    }
+}
+
+@media(max-width: 659px) {
+    .lotusui30_layout .lotusColRight.col-xxs-12 {
+        margin-top: 100px;
+    }
+    .lotusui30 .lotusMenu li {
+        zoom: 0.9;
+    }
+}
+@media(max-width:590px) {
+    .lotusui30 .lotusMenu li {
+        float:none;
+    }
+    .lotusui30 .lotusMenu .lotusHeaderSelected, 
+    .lotusui30 .lotusMenu li.lotusSelected, 
+    .lotusui30 .lotusMenu li.lotusSelected:active, 
+    .lotusui30 .lotusMenu li.lotusSelected:focus, 
+    .lotusui30 .lotusMenu li.lotusSelected:hover, 
+    .lotusui30 .lotusMenu li.lotusSelected:visited {
+        float: none;
+    }
+}
