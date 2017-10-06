@@ -4,6 +4,9 @@
     background: url(https://www.androidcentral.com/sites/androidcentral.com/files/styles/w550h500/public/wallpapers/blue-square-tiles-ebd.jpg?itok=p6J0DUCA) no-repeat;
     background-size: cover;
 }
+.lotusliveui, .lotusliveui30, .scloud3 {
+    font: normal 1.3em/1.5 "Helvetica Neue", Helvetica, Arial, Roboto, sans-serif;
+}
 .lotusui30 .lotusTitleBar2 .lotusInner .titleBarBody img {
     display:none;
 }
