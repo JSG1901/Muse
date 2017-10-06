@@ -1,4 +1,4 @@
-#xhpUserPhoto a {
+#hpUserPhoto a {
     width: 120px;
     height: 120px;
     background: url(https://www.androidcentral.com/sites/androidcentral.com/files/styles/w550h500/public/wallpapers/blue-square-tiles-ebd.jpg?itok=p6J0DUCA) no-repeat;
@@ -16,7 +16,7 @@
 .lotusui30.hasSideNav .lotusTitleBar2 .lotusInner .titleBarBody {
     top: 50px;
 }
-#xhpUserPhoto a {
+#hpUserPhoto a {
     top: -12px;
     left: -12px;
 }
