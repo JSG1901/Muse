@@ -52,7 +52,7 @@ body.lotusui30 div.lotusTitleBar .lotusInner .lotusHeading {
     display:none;
 }
 body.lotusui30_body .lotusMain {
-    min-width: none;
+    min-width: 0;
 }
 @media(max-width:768px) {
     
