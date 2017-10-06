@@ -105,6 +105,10 @@
         margin: 0;
         width: 100%;
     }
+    .cke_editable.cke_editable_themed.lconnShareboxCke {
+        padding: 10px 0px 0px 13px;
+        font-size: 12px;
+    }
 }
 
 @media(max-width: 659px) {
