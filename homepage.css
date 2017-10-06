@@ -66,7 +66,22 @@
     /* break to bootstrap lg */
     
 }
-
+@media(max-width: 991px) {
+    // side nav to horizontal
+    #hpUserPhoto a {
+        width: 60px;
+        height: 60px;
+    }
+    .lotusui30 .lotusMenu .lotusMenuSection {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        top: 130px;
+        left: 100px;
+    }
+    
+}
 @media(max-width: 450px) {
     
 }
