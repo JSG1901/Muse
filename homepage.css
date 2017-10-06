@@ -81,6 +81,30 @@
         top: 130px;
         left: 100px;
     }
+    .lotusui30 .lotusMenu li {
+        zoom: 0.9;
+        float: left;
+    }
+    .lotusui30 .lotusMenu .lotusHeaderSelected, 
+    .lotusui30 .lotusMenu li.lotusSelected, 
+    .lotusui30 .lotusMenu li.lotusSelected:active, 
+    .lotusui30 .lotusMenu li.lotusSelected:focus, 
+    .lotusui30 .lotusMenu li.lotusSelected:hover, 
+    .lotusui30 .lotusMenu li.lotusSelected:visited {
+        position: relative;
+        margin: 0;
+        background-color: transparent;
+        border-top: none;
+        border-bottom: none;
+        color: #000;
+        border-left: 4px solid #4178be;
+        float: left;
+    }
+    .lotusui30 .lotusMenu li a, 
+    .lotusui30 .lotusMenu li a:visited {
+        margin: 0;
+        width: 100%;
+    }
 }
 
 @media(max-width: 450px) {
