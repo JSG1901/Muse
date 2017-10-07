@@ -1,4 +1,4 @@
-@import 'https://rawgit.com/JSG1901/Muse/master/coreDesign.css';
+@import url('https://rawgit.com/JSG1901/Muse/master/coreDesign.css');
 
 /* blogs.css */
 body.lotusliveui, 
@@ -31,7 +31,7 @@ body.scloud3 {
 ul#blogsActionBar {
     position: absolute;
     left: 80vw;
-    top: 300px;
+    top: 0;
     margin: 0;
     padding: 0;
     text-align: left;

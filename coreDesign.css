@@ -9,8 +9,8 @@
 .ics-scbanner > .selected:hover::after {
     border-bottom-color: #a42a2a;
 }
-.lotusui30_layout .lotusColRight,
-.lotusui30_layout .lotusColLeft {
+body.lotusui30_layout .lotusColRight,
+body.lotusui30_layout .lotusColLeft {
     float: none;
     margin-left: 0;
     margin-right: 0;
