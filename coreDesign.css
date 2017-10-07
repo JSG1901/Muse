@@ -9,17 +9,17 @@ body .ics-scbanner > .selected::after {
 body .ics-scbanner > .selected:hover::after {
     border-bottom-color: #a42a2a;
 }
-body.lotusui30_layout .lotusColRight,
-body.lotusui30_layout .lotusColLeft {
+body .lotusui30_layout .lotusColRight,
+body .lotusui30_layout .lotusColLeft {
     float: none;
     margin-left: 0;
     margin-right: 0;
 }
 
-body.lotusui30_layout .lotusMain .lotusContent:before {
+body .lotusui30_layout .lotusMain .lotusContent:before {
     left: 0;
 }
-body.lotusui30_layout .lotusMain .lotusContent {
+body .lotusui30_layout .lotusMain .lotusContent {
     padding: 15px 20px 15px 15px;
 }
 body #lotusColRight.lotusColRight {
