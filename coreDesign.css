@@ -28,7 +28,8 @@ body .lotusui30_layout .lotusMain .lotusContent {
     padding: 15px 20px 15px 15px;
 }
 body #lotusColRight.lotusColRight,
+body .lotusui30_layout .lotusColLeft,
 body .lotusui30_layout .lotusMain .lotusContent:before{
-    background: transparent;
+    background: rgba(255,255,255,0.8);
     
 }
