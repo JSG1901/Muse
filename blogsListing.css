@@ -43,12 +43,12 @@ ul#blogsActionBar li {
     border: none;
 }
 body .lotusui30_layout .lotusColLeft {
-    background-color: white;
+    xbackground-color: white;
 }
 body .lotusui30_layout .lotusColLeft:after {
     border-left:none;
     border-right:none;
-    background-color:white;
+    xbackground-color:white;
 }
 body.lotusui30 div.lotusTitleBar .lotusInner .lotusHeading {
     display:none;
