@@ -56,6 +56,14 @@ body.lotusui30 div.lotusTitleBar .lotusInner .lotusHeading {
 body.lotusui30_body .lotusMain {
     min-width: 0;
 }
+body.lotusui30_body #lotusContent #entries,
+body.lotusui30_body .lotusui30 .lotusMenu,
+body .lotusui30_layout .lotusColRight .lotusSection {
+    background: rgba(177,110,0,0.6);
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 1vw;
+}
 @media(max-width:768px) {
     
 }

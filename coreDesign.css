@@ -1,5 +1,5 @@
 body.lotusui30_body {
-    background: #ffb130 url(https://images.unsplash.com/photo-1489710437720-ebb67ec84dd2);
+    background: #e49106 url(https://images.unsplash.com/photo-1489710437720-ebb67ec84dd2);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -30,6 +30,11 @@ body .lotusui30_layout .lotusMain .lotusContent {
 body #lotusColRight.lotusColRight,
 body .lotusui30_layout .lotusColLeft,
 body .lotusui30_layout .lotusMain .lotusContent:before{
-    background: rgba(255,255,255,0.8);
-    
+    background: transparent;
 }
+/*
+rgba(177,110,0,0.6)
+
+
+
+*/
