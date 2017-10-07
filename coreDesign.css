@@ -1,0 +1,27 @@
+.ics-scbanner {
+    background-color: coral
+    font-family: Courier, sans-serif;
+    font-size: 13px;
+}
+.ics-scbanner > .selected::after {
+    border-bottom-color: #c84040;
+}
+.ics-scbanner > .selected:hover::after {
+    border-bottom-color: #a42a2a;
+}
+.lotusui30_layout .lotusColRight,
+.lotusui30_layout .lotusColLeft {
+    float: none;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.lotusui30_layout .lotusMain .lotusContent:before {
+    left: 0;
+}
+.lotusui30_layout .lotusMain .lotusContent {
+    padding: 15px 20px 15px 15px;
+}
+#lotusColRight.lotusColRight {
+    background: white;
+}

@@ -244,7 +244,7 @@ jQuery.initialize('*', function () {
                 case 'ideation blog':
                     break;
                 case 'blog listing':
-                    appendStyleSheet('https://rawgit.com/JSG1901/Muse/master/blogs.css');
+                    appendStyleSheet('https://rawgit.com/JSG1901/Muse/master/blogsListing.css');
                     jQuery('h4').addClass('bidiAware');
                     jQuery.initialize(".lotusui30_layout .lotusMain .lotusContent", function () {
                         $(this).css("margin-left", '');
