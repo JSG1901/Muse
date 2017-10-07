@@ -1,5 +1,10 @@
+body {
+    background: #ffb130 url(https://images.unsplash.com/photo-1489710437720-ebb67ec84dd2);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 body .ics-scbanner {
-    background-color: coral;
+    background-color: #ffb130;
     font-family: Courier, sans-serif;
     font-size: 13px;
 }
