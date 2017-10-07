@@ -70,6 +70,19 @@ body .lotusui30_layout .lotusColRight .lotusSection {
     padding: 10px 20px;
     border-radius: 1vw;
 }
+body .blogsFixedTable .entryContentContainerTD.blogsWrapText h4.bidiAware, 
+body .blogsFixedTable .entryContentContainerTD.blogsWrapText h4.bidiAware a {
+    font-family: Helvetica Neue,Helvetica,sans-serif;
+    font-size: 24pt;
+    line-height: 24.0pt;
+    color: white;
+    margin: 0;
+    max-width: 90%;
+    padding-bottom: 8px;
+    border-bottom: 1pt solid #ddd;
+    font-weight: 300;
+    padding-top: 15px;
+}
 @media(max-width:768px) {
     
 }
