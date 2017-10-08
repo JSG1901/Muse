@@ -127,6 +127,9 @@ body.lotusui30 div.lotusPlaceBar h2 {
     margin-right: 0;
     left: -22vw;
 }
+body .communities-widget-appearance .lotusui30 img.discussCommunityLogo {
+    border-radius: 0;
+}
 
 
 @media(max-width:768px) {
