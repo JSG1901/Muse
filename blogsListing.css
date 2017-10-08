@@ -110,11 +110,19 @@ body div#dropdownSubMenuContainer div#dropdownSubMenu {
     background-color: rgba(228,145,6,0.5);
     border: 1px solid rgb(228,145,6);
 }
+body.lotusui30 .lotusSort,
 body.lotusui30 a, 
 body.lotusui30 a:visited, 
 body div#dropdownNavMenuContainer div#dropdownNavMenuTitle li a, 
 body div#dropdownSubMenuContainer div#dropdownSubMenuTitle li a, a {
     color: white;
+}
+body.lotusui30 .lotusPaging, 
+body.lotusui30 .lotusPaging div, 
+body.lotusui30 .lotusPaging input, 
+body.lotusui30 .lotusPaging ul li {
+    color: #7f4600;
+    font-weight: 900;
 }
 body div#dropdownNavMenuContainer div#dropdownNavMenuTitle li a {
     background-color: rgba(228,145,6,0.8);
