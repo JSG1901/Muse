@@ -52,7 +52,7 @@ body.lotusui30_body .lotusMain {
     min-width: 0;
     margin-top: 30px;
 }
-body.lotusui30_body #lotusContent #entries,
+body.lotusui30_body #lotusContent #entries .lotusui30 .lotusTable tr,
 body.lotusui30_body .lotusui30 .lotusMenu,
 body .lotusui30_layout .lotusColRight .lotusSection {
     background: rgba(152,99,62,0.6);
