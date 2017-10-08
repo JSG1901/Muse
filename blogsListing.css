@@ -2,9 +2,17 @@
 
 body.lotusui30_body {
     background: #ffb130 url(https://images.unsplash.com/photo-1489710437720-ebb67ec84dd2);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     color: white;
+}
+.lotusui30_body .lotusFrame.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background: url(https://images.unsplash.com/photo-1489710437720-ebb67ec84dd2) no-repeat;
+    background-size: contain;
 }
 /* blogs.css */
 body.lotusliveui, 
@@ -23,7 +31,10 @@ body.scloud3 {
 .blog .entryContentContainer.blogsWrapText {
     margin-top: 0;
 }
-
+body.lotusui30 .lotusActionBar {
+    top: 135px;
+    right: 10px;
+}
 ul#blogsActionBar {
     position: absolute;
     left: 80vw;
@@ -66,10 +77,16 @@ body.lotusui30_body .lotusMain {
     min-width: 0;
     margin-top: 30px;
 }
+body #lconnTagCloudFilter {
+    background: rgba(152,99,62,0.7);
+    padding: 10px 25px;
+    margin: 0 50px 0 20px;
+    border-radius: 1vw;
+}
 body.lotusui30_body #lotusContent #entries .lotusTable.blogsFixedTable td,
 body.lotusui30_body .lotusui30 .lotusMenu,
 body .lotusui30_layout .lotusColRight .lotusSection {
-    background: rgba(152,99,62,0.6);
+    background: rgba(152,99,62,0.7);
     margin: 5px;
     padding: 10px 20px;
     border-radius: 1vw;
