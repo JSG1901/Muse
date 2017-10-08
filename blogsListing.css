@@ -55,7 +55,7 @@ body.lotusui30_body .lotusMain {
 body.lotusui30_body #lotusContent #entries,
 body.lotusui30_body .lotusui30 .lotusMenu,
 body .lotusui30_layout .lotusColRight .lotusSection {
-    background: rgba(177,110,0,0.6);
+    background: rgba(152,99,62,0.6);
     margin: 5px;
     padding: 10px 20px;
     border-radius: 1vw;
@@ -125,7 +125,7 @@ body.lotusui30 .lotusPaging ul li {
     font-weight: 900;
 }
 body div#dropdownNavMenuContainer div#dropdownNavMenuTitle li a {
-    background-color: rgba(228,145,6,0.8);
+    background-color: rgba(152,99,62,0.6);
 }
 body .hikari.ics-scbanner > a, 
 body .hikari.ics-scbanner > a:visited, 
