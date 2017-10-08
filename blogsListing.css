@@ -108,6 +108,7 @@ body .hikari.ics-scbanner > a.selected {
     color: white;
     font-weight: 800;
 }
+
 body.lotusui30 .dijitTitlePaneTitle, 
 body.lotusui30 .lotusSection h2, 
 body.lotusui30 .lotusWidget h2, 
@@ -125,7 +126,7 @@ body.lotusui30 div.lotusPlaceBar h2 {
     margin-left: 0;
     margin-bottom: 0;
     margin-right: 0;
-    left: -22vw;
+    left: 0;
 }
 body .communities-widget-appearance .lotusui30 img.discussCommunityLogo {
     border-radius: 0;
