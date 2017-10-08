@@ -1,7 +1,7 @@
 @import url('https://rawgit.com/JSG1901/Muse/master/coreDesign.css');
 
 body.lotusui30_body {
-    background: #e49106 url(https://images.unsplash.com/photo-1489710437720-ebb67ec84dd2);
+    background: #fdd44a url(https://images.unsplash.com/photo-1489710437720-ebb67ec84dd2);
     background-size: contain;
     background-repeat: no-repeat;
     color: white;
@@ -115,6 +115,9 @@ body.lotusui30 a:visited,
 body div#dropdownNavMenuContainer div#dropdownNavMenuTitle li a, 
 body div#dropdownSubMenuContainer div#dropdownSubMenuTitle li a, a {
     color: white;
+}
+body div#dropdownNavMenuContainer div#dropdownNavMenuTitle li a {
+    background-color: rgba(228,145,6,0.8);
 }
 body .hikari.ics-scbanner > a, 
 body .hikari.ics-scbanner > a:visited, 
