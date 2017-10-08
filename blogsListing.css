@@ -66,6 +66,10 @@ body.lotusui30 .lotusMain span.lotusBtn a {
     margin-top: 10px;
     font-family: Courier, "Helvetica Neue",Helvetica,sans-serif;
 }
+body.lotusui30 .lotusMain span.lotusBtn a:hover {
+    background-color: rgba(225,131,0,0.8);
+    color: white;
+}
 body div#dropdownNavMenuContainer div#dropdownNavMenuTitle li a, 
 body div#dropdownSubMenuContainer div#dropdownSubMenuTitle li a {
     border: none;
