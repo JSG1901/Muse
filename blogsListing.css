@@ -121,9 +121,10 @@ body.lotusui30 div.lotusPlaceBar h2 {
     background-size: 100% 100%;
     width: 75%;
 }
-body .communities-widget-appearance .lotusui30 img.discussCommunityLogo {
-    border-radius: 0;
+.communities-widget-appearance .lotusui30 .lconnCommLogo img.discussCommunityLogo {
+    display:none;
 }
+
 body.lotusui30 .dijitTitlePaneTitle, 
 body.lotusui30 .lotusSection h2, 
 body.lotusui30 .lotusWidget h2, 
