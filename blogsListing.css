@@ -30,8 +30,8 @@ body.scloud3 {
     margin-top: 0;
 }
 body.lotusui30 .lotusActionBar {
-    top: 135px;
-    right: 10px;
+    top: 123px;
+    right: -5px;
 }
 ul#blogsActionBar {
     position: absolute;
@@ -63,6 +63,7 @@ body.lotusui30 .lotusMain span.lotusBtn a {
     box-shadow: 0 0 0 1px #eee inset;
     margin-top: 10px;
     font-family: Courier, "Helvetica Neue",Helvetica,sans-serif;
+    border-radius: 0.9vw;
 }
 body.lotusui30 .lotusMain span.lotusBtn a:hover {
     background-color: rgba(225,131,0,0.8);
