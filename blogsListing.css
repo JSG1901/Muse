@@ -45,6 +45,9 @@ body .lotusui30_layout .lotusColLeft:after {
     border-left:none;
     border-right:none;
 }
+body.lotusui30 span.lotusBtn {
+    float:right;
+}
 body div#dropdownNavMenuContainer div#dropdownNavMenuTitle li a, 
 body div#dropdownSubMenuContainer div#dropdownSubMenuTitle li a {
     border: none;
