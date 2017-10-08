@@ -48,6 +48,12 @@ body .lotusui30_layout .lotusColLeft:after {
 body.lotusui30 span.lotusBtn {
     float:right;
 }
+body.lotusui30 .lotusMain span.lotusBtn a {
+    background-color: rgba(225,131,0,0.6);
+    color: white;
+    box-shadow: 0 0 0 1px #eee inset;
+    margin-top: 10px;
+}
 body div#dropdownNavMenuContainer div#dropdownNavMenuTitle li a, 
 body div#dropdownSubMenuContainer div#dropdownSubMenuTitle li a {
     border: none;
@@ -191,7 +197,13 @@ body.lotusui30 div.lotusPlaceBar h2 {
 .communities-widget-appearance .lotusui30 .lconnCommLogo img.discussCommunityLogo {
     display:none;
 }
-
+body.lotusui30 .lotusPlaceBar .lotusInlinelist li a, 
+body.lotusui30 .lotusPlaceBar .lotusInlinelist li a:visited {
+    color: black;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: Courier, "Helvetica Neue", Helvetica, sans-serif;
+}
 body.lotusui30 .dijitTitlePaneTitle, 
 body.lotusui30 .lotusSection h2, 
 body.lotusui30 .lotusWidget h2, 
