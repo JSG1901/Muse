@@ -121,7 +121,12 @@ body.lotusui30 div.lotusPlaceBar h2 {
 body .communities-widget-appearance .lotusui30 img.discussCommunityLogo {
     border-radius: 0;
 }
-
+body.lotusui30 .dijitTitlePaneTitle, 
+body.lotusui30 .lotusSection h2, 
+body.lotusui30 .lotusWidget h2, 
+body.lotusui30 .lotusWidget2 h2 {
+    font-family: Courier, "Helvetica Neue Light",Helvetica,Arial,sans-serif;
+}
 
 @media(max-width:768px) {
     
