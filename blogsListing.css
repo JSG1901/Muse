@@ -61,6 +61,7 @@ body.lotusui30 div.lotusTitleBar .lotusInner .lotusHeading {
 }
 body.lotusui30_body .lotusMain {
     min-width: 0;
+    margin-top: 30px;
 }
 body.lotusui30_body #lotusContent #entries,
 body.lotusui30_body .lotusui30 .lotusMenu,
@@ -72,14 +73,10 @@ body .lotusui30_layout .lotusColRight .lotusSection {
 }
 body .blogsFixedTable .entryContentContainerTD.blogsWrapText h4.bidiAware, 
 body .blogsFixedTable .entryContentContainerTD.blogsWrapText h4.bidiAware a {
-    font-family: Helvetica Neue,Helvetica,sans-serif;
+    font-family: "Helvetica Neue",Helvetica,sans-serif;
     font-size: 24pt;
     line-height: 24.0pt;
     color: white;
-    margin: 0;
-    max-width: 90%;
-    padding-bottom: 8px;
-    border-bottom: 1pt solid #ddd;
     font-weight: 300;
     padding-top: 15px;
 }
@@ -88,6 +85,47 @@ body.lotusui30 a:visited,
 body div#dropdownNavMenuContainer div#dropdownNavMenuTitle li a, 
 body div#dropdownSubMenuContainer div#dropdownSubMenuTitle li a, a {
     color: white;
+}
+body .hikari.ics-scbanner > a, 
+body .hikari.ics-scbanner > a:visited, 
+body .hikari.ics-scbanner > a:hover, 
+body .hikari.ics-scbanner > a:focus, 
+body .hikari.ics-scbanner > a:active, 
+body .gen4.ics-scbanner > a, 
+body .gen4.ics-scbanner > a:visited, 
+body .gen4.ics-scbanner > a:hover, 
+body .gen4.ics-scbanner > a:focus, 
+body .gen4.ics-scbanner > a:active, 
+body .colour.ics-scbanner > a, 
+body .colour.ics-scbanner > a:visited, 
+body .colour.ics-scbanner > a:hover, 
+body .colour.ics-scbanner > a:focus, 
+body .colour.ics-scbanner > a:active,
+body .ics-scbanner {
+    color: black !important;
+}
+body .hikari.ics-scbanner > a.selected {
+    color: white;
+    font-weight: 800;
+}
+body.lotusui30 .dijitTitlePaneTitle, 
+body.lotusui30 .lotusSection h2, 
+body.lotusui30 .lotusWidget h2, 
+body.lotusui30 .lotusWidget2 h2 {
+    color: white;
+}
+body.lotusui30 div.lotusPlaceBar h2 {
+    font-family: "Helvetica Neue Light",Helvetica,Arial,sans-serif;
+    font-weight: 100;
+    padding: 0;
+    color: white;
+    font-size: 3em;
+    position: absolute;
+    top: -48px;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    left: -22vw;
 }
 
 
