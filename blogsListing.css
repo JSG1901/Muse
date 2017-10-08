@@ -141,6 +141,8 @@ body.lotusui30 .lotusSort a {
     font-weight: 300;
     font-family: Courier, "Helvetica Neue", Helvetica, sans-serif;
     color:black;
+    margin-bottom: 7px;
+    margin-top: -10px;
 }
 body.lotusui30 .lotusPaging, 
 body.lotusui30 .lotusPaging div, 
