@@ -83,6 +83,14 @@ body .blogsFixedTable .entryContentContainerTD.blogsWrapText h4.bidiAware a {
     font-weight: 300;
     padding-top: 15px;
 }
+body.lotusui30 a, 
+body.lotusui30 a:visited, 
+body div#dropdownNavMenuContainer div#dropdownNavMenuTitle li a, 
+body div#dropdownSubMenuContainer div#dropdownSubMenuTitle li a, a {
+    color: white;
+}
+
+
 @media(max-width:768px) {
     
 }
