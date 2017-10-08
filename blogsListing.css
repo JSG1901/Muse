@@ -108,7 +108,7 @@ body.lotusui30 .lotusWidget2 h2 {
 body.lotusui30 div.lotusPlaceBar h2 {
     font-family: Courier, "Helvetica Neue Light",Helvetica,Arial,sans-serif;
     font-weight: 100;
-    padding: 0;
+    padding: 35px 25px 50px 85px;
     color: white;
     font-size: 2.7em;
     position: absolute;
@@ -116,7 +116,10 @@ body.lotusui30 div.lotusPlaceBar h2 {
     margin-left: 0;
     margin-bottom: 0;
     margin-right: 0;
-    left: 0; 
+    left: 0;
+    background: url(http://rawgit.com/JSG1901/Muse/master/BrownPaperBG.png);
+    background-size: 100% 100%;
+    width: 75%;
 }
 body .communities-widget-appearance .lotusui30 img.discussCommunityLogo {
     border-radius: 0;
