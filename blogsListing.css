@@ -56,13 +56,16 @@ body.lotusui30_body .lotusMain {
     min-width: 0;
     margin-top: 30px;
 }
-body.lotusui30_body #lotusContent #entries .lotusTable.blogsFixedTable tr,
+body.lotusui30_body #lotusContent #entries .lotusTable.blogsFixedTable td,
 body.lotusui30_body .lotusui30 .lotusMenu,
 body .lotusui30_layout .lotusColRight .lotusSection {
     background: rgba(152,99,62,0.6);
     margin: 5px;
     padding: 10px 20px;
     border-radius: 1vw;
+}
+body.lotusui30_body #lotusContent #entries .lotusTable.blogsFixedTable td {
+    border-bottom: 15px solid transparent;
 }
 body .blogsFixedTable .entryContentContainerTD.blogsWrapText h4.bidiAware, 
 body .blogsFixedTable .entryContentContainerTD.blogsWrapText h4.bidiAware a,
