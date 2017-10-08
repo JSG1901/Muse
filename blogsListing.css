@@ -66,6 +66,7 @@ body .lotusui30_layout .lotusColRight .lotusSection {
 }
 body.lotusui30_body #lotusContent #entries .lotusTable.blogsFixedTable td {
     border-bottom: 15px solid transparent;
+    padding: 15px 30px;
 }
 body .blogsFixedTable .entryContentContainerTD.blogsWrapText h4.bidiAware, 
 body .blogsFixedTable .entryContentContainerTD.blogsWrapText h4.bidiAware a,
@@ -77,6 +78,7 @@ body.lotusui30 .lotusColRight .lotusSection2 .lotusHeading2 {
     color: white;
     font-weight: 300;
     padding-top: 15px;
+    width: 85%;
 }
 body.lotusui30 .lotusMenu li.lotusSelected:first-child a,
 body.lotusui30 .lotusMenu li a, 
