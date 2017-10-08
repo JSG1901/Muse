@@ -135,16 +135,19 @@ body div#dropdownNavMenuContainer div#dropdownNavMenuTitle li a,
 body div#dropdownSubMenuContainer div#dropdownSubMenuTitle li a, a {
     color: white;
 }
-body.lotusui30 .lotusSort
-body.lotusui30 .lotusSor a {
+body.lotusui30 .lotusSort,
+body.lotusui30 .lotusSort a {
+    font-weight: 300;
+    font-family: Courier, "Helvetica Neue", Helvetica, sans-serif;
     color:black;
 }
 body.lotusui30 .lotusPaging, 
 body.lotusui30 .lotusPaging div, 
 body.lotusui30 .lotusPaging input, 
 body.lotusui30 .lotusPaging ul li {
-    color: #7f4600;
-    font-weight: 900;
+    color: black;
+    font-weight: 300;
+    font-family: Courier, "Helvetica Neue", Helvetica, sans-serif;
 }
 body div#dropdownNavMenuContainer div#dropdownNavMenuTitle li a {
     background-color: rgba(152,99,62,0.6);
