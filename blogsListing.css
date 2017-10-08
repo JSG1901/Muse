@@ -12,17 +12,7 @@ body.lotusliveui30,
 body.scloud3 {
     font: normal 1.25em/1.5 "Helvetica Neue", Helvetica, Arial, Roboto, sans-serif;
 }
-.blogsFixedTable .entryContentContainerTD.blogsWrapText h4.bidiAware,
-.blogsFixedTable .entryContentContainerTD.blogsWrapText h4.bidiAware a {
-    font-family:Trebuchet MS,Helvetica,sans-serif;
-    font-size: 18.0pt;
-    line-height: 24.0pt;
-    color: #4b0082;
-    margin: 0;
-    max-width: 90%;
-    padding-bottom: 8px;
-    border-bottom: 1pt solid #ddd; 
-}
+
 .blogsFixedTable .entryContentContainerTD.blogsWrapText h4.bidiAware a {
     border-bottom:none;   
 }
@@ -73,7 +63,7 @@ body .lotusui30_layout .lotusColRight .lotusSection {
 }
 body .blogsFixedTable .entryContentContainerTD.blogsWrapText h4.bidiAware, 
 body .blogsFixedTable .entryContentContainerTD.blogsWrapText h4.bidiAware a {
-    font-family: "Helvetica Neue",Helvetica,sans-serif;
+    font-family: Courier, "Helvetica Neue",Helvetica,sans-serif;
     font-size: 24pt;
     line-height: 24.0pt;
     color: white;
@@ -116,11 +106,11 @@ body.lotusui30 .lotusWidget2 h2 {
     color: white;
 }
 body.lotusui30 div.lotusPlaceBar h2 {
-    font-family: "Helvetica Neue Light",Helvetica,Arial,sans-serif;
+    font-family: Courier, "Helvetica Neue Light",Helvetica,Arial,sans-serif;
     font-weight: 100;
     padding: 0;
     color: white;
-    font-size: 3em;
+    font-size: 2.7em;
     position: absolute;
     top: -48px;
     margin-left: 0;
