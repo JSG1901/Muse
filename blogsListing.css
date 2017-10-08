@@ -45,6 +45,10 @@ body .lotusui30_layout .lotusColLeft:after {
     border-left:none;
     border-right:none;
 }
+body div#dropdownNavMenuContainer div#dropdownNavMenuTitle li a, 
+body div#dropdownSubMenuContainer div#dropdownSubMenuTitle li a {
+    border: none;
+}
 body.lotusui30 div.lotusTitleBar .lotusInner .lotusHeading {
     display:none;
 }
