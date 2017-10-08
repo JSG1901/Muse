@@ -91,6 +91,14 @@ body div#dropdownSubMenuContainer div#dropdownSubMenu li:focus a,
 body div#dropdownSubMenuContainer div#dropdownSubMenu li.lotusSelected a {
     background: #e49106;
 }
+body div#dropdownNavMenuContainer div#dropdownNavMenu li a, 
+body div#dropdownNavMenuContainer div#dropdownNavMenu li a:before, 
+body div#dropdownNavMenuContainer div#dropdownNavMenu div#subcommArea .lotusMenuSection h3, 
+body div#dropdownSubMenuContainer div#dropdownSubMenu li a, 
+body div#dropdownSubMenuContainer div#dropdownSubMenu li a:before, 
+body div#dropdownSubMenuContainer div#dropdownSubMenu div#subcommArea .lotusMenuSection h3 {
+    width: 100%;
+}
 body div#dropdownNavMenuContainer div#dropdownNavMenu, 
 body div#dropdownSubMenuContainer div#dropdownSubMenu {
     overflow: hidden;
