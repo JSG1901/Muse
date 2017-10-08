@@ -39,12 +39,11 @@ ul#blogsActionBar li {
     border: none;
 }
 body .lotusui30_layout .lotusColLeft {
-    xbackground-color: white;
+    margin-top: 100px;
 }
 body .lotusui30_layout .lotusColLeft:after {
     border-left:none;
     border-right:none;
-    xbackground-color:white;
 }
 body.lotusui30 div.lotusTitleBar .lotusInner .lotusHeading {
     display:none;
@@ -62,13 +61,28 @@ body .lotusui30_layout .lotusColRight .lotusSection {
     border-radius: 1vw;
 }
 body .blogsFixedTable .entryContentContainerTD.blogsWrapText h4.bidiAware, 
-body .blogsFixedTable .entryContentContainerTD.blogsWrapText h4.bidiAware a {
+body .blogsFixedTable .entryContentContainerTD.blogsWrapText h4.bidiAware a,
+body.lotusui30 .lotusColRight .lotusSection2 .lotusHeading, 
+body.lotusui30 .lotusColRight .lotusSection2 .lotusHeading2, 
+body.lotusui30 .lotusMenu li.lotusSelected:first-child a,
+body.lotusui30 .lotusMenu li a, 
+body.lotusui30 .lotusMenu li a:visited {
     font-family: Courier, "Helvetica Neue",Helvetica,sans-serif;
     font-size: 24pt;
     line-height: 24.0pt;
     color: white;
     font-weight: 300;
     padding-top: 15px;
+}
+body div#dropdownNavMenuContainer div#dropdownNavMenu li a:hover, 
+body div#dropdownNavMenuContainer div#dropdownNavMenu li a:focus, 
+body div#dropdownNavMenuContainer div#dropdownNavMenu li:focus a, 
+body div#dropdownNavMenuContainer div#dropdownNavMenu li.lotusSelected a, 
+body div#dropdownSubMenuContainer div#dropdownSubMenu li a:hover, 
+body div#dropdownSubMenuContainer div#dropdownSubMenu li a:focus, 
+body div#dropdownSubMenuContainer div#dropdownSubMenu li:focus a, 
+body div#dropdownSubMenuContainer div#dropdownSubMenu li.lotusSelected a {
+    background: #e49106;
 }
 body.lotusui30 a, 
 body.lotusui30 a:visited, 
