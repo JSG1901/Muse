@@ -63,12 +63,19 @@ body .lotusui30_layout .lotusColRight .lotusSection {
 body .blogsFixedTable .entryContentContainerTD.blogsWrapText h4.bidiAware, 
 body .blogsFixedTable .entryContentContainerTD.blogsWrapText h4.bidiAware a,
 body.lotusui30 .lotusColRight .lotusSection2 .lotusHeading, 
-body.lotusui30 .lotusColRight .lotusSection2 .lotusHeading2, 
+body.lotusui30 .lotusColRight .lotusSection2 .lotusHeading2 {
+    font-family: Courier, "Helvetica Neue",Helvetica,sans-serif;
+    font-size: 24pt;
+    line-height: 24.0pt;
+    color: white;
+    font-weight: 300;
+    padding-top: 15px;
+}
 body.lotusui30 .lotusMenu li.lotusSelected:first-child a,
 body.lotusui30 .lotusMenu li a, 
 body.lotusui30 .lotusMenu li a:visited {
     font-family: Courier, "Helvetica Neue",Helvetica,sans-serif;
-    font-size: 24pt;
+    font-size: 16pt;
     line-height: 24.0pt;
     color: white;
     font-weight: 300;
@@ -83,6 +90,17 @@ body div#dropdownSubMenuContainer div#dropdownSubMenu li a:focus,
 body div#dropdownSubMenuContainer div#dropdownSubMenu li:focus a, 
 body div#dropdownSubMenuContainer div#dropdownSubMenu li.lotusSelected a {
     background: #e49106;
+}
+body div#dropdownNavMenuContainer div#dropdownNavMenu, 
+body div#dropdownSubMenuContainer div#dropdownSubMenu {
+    overflow: hidden;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 188px;
+    z-index: 5;
+    background-color: rgba(228,145,6,0.5);
+    border: 1px solid rgb(228,145,6);
 }
 body.lotusui30 a, 
 body.lotusui30 a:visited, 
