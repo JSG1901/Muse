@@ -313,6 +313,10 @@ body.lotusui30 .lotusColLeft a.lotusF5:visited {
     ul#blogsActionBar {
         display:none;
     }
+    body.lotusui30 .lotusActionBar {
+        top: 0px;
+        left: 0;
+    }
 }
 @media(max-width:1200px) {
     ul#blogsActionBar {
