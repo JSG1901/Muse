@@ -40,6 +40,7 @@ ul#blogsActionBar {
     margin: 0;
     padding: 0;
     text-align: left;
+    width: 200px;
 }
 ul#blogsActionBar li {
     display:block;
@@ -283,5 +284,12 @@ body .search-history-view-ui .lotusui30 .icSearchPaneButton {
 @media(max-width:1200px) {
     ul#blogsActionBar {
         top:0;
+    }
+}
+@media(max-width:1334px) {
+    body .lotusui30_layout .lotusMain .lotusContent,
+    body .lotusui30_layout .lotusMain .lotusColLeft,
+    body .lotusui30_layout .lotusMain .lotusColRight {
+        padding-top: 50px;
     }
 }
