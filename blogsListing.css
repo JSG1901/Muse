@@ -281,7 +281,8 @@ body #lotusColRight .blogsFixedTable {
     color: white;
 }
 body #lotusColRight .blogsFixedTable h4 {
-
+    font-size:1.1em;
+    font-weight: 800;
 }
 body #lotusColRight .blogsFixedTable div br {
     display:none;
@@ -304,8 +305,8 @@ body #lotusColRight .blogsFixedTable div .blogsPaddingLeft {
     margin-top: -35px;
     margin-left: -5px;
 }
-body.lotusui30 .lotusMeta .lotusLike {
-    padding: 25px 0 5px 0;
+body.lotusui30 .lotusColRight .lotusMeta .lotusLike {
+    top:0;
 }
 
 @media(max-width:768px) {
