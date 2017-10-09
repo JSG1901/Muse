@@ -270,7 +270,8 @@ body .lotusui30_layout .lotusMain .lotusContent {
 body .lotusTable td.entryContentContainerTD p {
     padding-bottom: 5px;
 }
-body.lotusui30 .lotusTable h4 {
+body.lotusui30 .lotusTable h4,
+body.lotusui30 .lotusColRight .lotusMeta {
     font-family: Courier, "Helvetica Neue Light",Helvetica,Arial,Roboto;
     font-size: 0.95em;
 }
