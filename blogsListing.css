@@ -278,11 +278,16 @@ body #lotusColRight .blogsFixedTable {
 body #lotusColRight .blogsFixedTable h4 {
 
 }
+body #lotusColRight .blogsFixedTable div br {
+    display:none;
+}
 body #lotusColRight .blogsFixedTable div:not(div.lotusLike) {
 
 }
 body #lotusColRight .blogsFixedTable div span[role="listitem"] {
     display:block;
+    padding:0;
+    margin:0;
 }
 body #lotusColRight .blogsFixedTable div span.lotusDivider {
     display:none;
