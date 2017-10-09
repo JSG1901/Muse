@@ -250,6 +250,9 @@ body.lotusui30 .lotusRightCorner .lotusInner .icSearchPaneButton {
     outline: #b47100 solid 1px;
     
 }
+.lotusui30 .lotusColLeft a.lotusF1, .lotusui30 .lotusColLeft a.lotusF1:visited, .lotusui30 .lotusColLeft a.lotusF2, .lotusui30 .lotusColLeft a.lotusF2:visited, .lotusui30 .lotusColLeft a.lotusF3, .lotusui30 .lotusColLeft a.lotusF3:visited, .lotusui30 .lotusColLeft a.lotusF4, .lotusui30 .lotusColLeft a.lotusF4:visited, .lotusui30 .lotusColLeft a.lotusF5, .lotusui30 .lotusColLeft a.lotusF5:visited {
+    color: white;
+}
 
 @media(max-width:768px) {
     body.lotusui30 div.lotusPlaceBar h2 {
