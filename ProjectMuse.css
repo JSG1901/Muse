@@ -166,8 +166,7 @@ div#dropdownSubMenuContainer div#dropdownSubMenuSelection {
         max-width: 30vw;
         white-space: normal;
     }
-    .lotusui30 .lotusTitleBar .lotusRightCorner,
-    .lotusui30 .lotusPlaceBar {
+    .lotusui30 .lotusTitleBar .lotusRightCorner {
         display:none;
     }
 }
