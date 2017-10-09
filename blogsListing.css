@@ -304,6 +304,7 @@ body #lotusColRight .blogsFixedTable div span.vcard {
 body #lotusColRight .blogsFixedTable div .blogsPaddingLeft {
     margin-top: -35px;
     margin-left: -5px;
+    color: #6c6c6c;
 }
 body.lotusui30 .lotusColRight .lotusMeta .lotusLike {
     top:0;
