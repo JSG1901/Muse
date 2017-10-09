@@ -300,6 +300,13 @@ body #lotusColRight .blogsFixedTable div span.lotusDivider {
 body #lotusColRight .blogsFixedTable div span.vcard {
     display:block;
 }
+body #lotusColRight .blogsFixedTable div .blogsPaddingLeft {
+    margin-top: -35px;
+    margin-left: -5px;
+}
+body.lotusui30 .lotusMeta .lotusLike {
+    padding: 25px 0 5px 0;
+}
 
 @media(max-width:768px) {
     body.lotusui30 div.lotusPlaceBar h2 {
