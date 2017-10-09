@@ -291,7 +291,11 @@ body.lotusui30 .lotusColLeft a.lotusF5:visited {
     /* break to bootstrap lg */
     
 }
-
+@media(max-width: 550px) {
+    body .lotusui30_layout .lotusMain .lotusColLeft {
+        padding-top: 100px;
+    }
+}
 @media(max-width: 660px) {
     #lotusColRight {
         display:none;
