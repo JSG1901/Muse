@@ -19,8 +19,7 @@
    // List of MutationSelectorObservers.
     var msobservers = [];
     msobservers.initialize = function (selector, callback) {
-        // Wrap the callback so that we can ensure that it is only
-        // called once per element.
+        // Wrap the callback so that we can ensure that it is only called once per element.
         var seen = [];
         var callbackOnce = function () {
             if (seen.indexOf(this) == -1) {
@@ -51,7 +50,6 @@
     };
 })(jQuery);
 
-
 /* -------------*/
 
 function isAnyMember(lookForList, lookInList) {
@@ -74,12 +72,13 @@ function isAnyMember(lookForList, lookInList) {
     return false;
 }
 
+// ASSUMPTION: This is only for blogs and blog listings (not ideation blog)
+
 var knownPageType;
 function getPageType() {
     var debug = false;
     if (knownPageType) return knownPageType;
     // blog
-
     if (jQuery('body.blog').length > 0) {
         if (jQuery(".lotusActionBar.lotusBtnContainer.aria_toolbar form[name='graduateIdeaForm']").length > 0){
             knownPageType = 'ideation blog';
@@ -100,44 +99,10 @@ function getPageType() {
             doBlogListingMods(buttns);
             return true;
         }
-
-    }
-    //homepage
-    if (window.location.href.indexOf('/homepage/') > -1) {
-        knownPageType = 'homepage';
-        if (debug) console.log("it's the home page");
-        return true;
-    }
-    // wiki
-    if (jQuery('body .wikiHeader').length > 0) {
-        knownPageType = 'wiki';
-        if (debug) console.log("it's a wiki");
-        return true;
-    }
-   // activity
-    if (jQuery('body div#activitypage').length > 0) {
-        knownPageType = 'activity';
-        if (debug) console.log("it's an activity");
-        return true;
-    }
-    // files
-    if (jQuery('body div.filesListFilled').length > 0) {
-        knownPageType = 'files';
-        if (debug) console.log("it's files");
-        return true;
-    }
-
-
-    // community
-    if (jQuery('body div#contentArea.lconnCommLanding').length > 0) {
-        knownPageType = 'genl community';
-        if (debug) console.log("it's a genl community page"); // e.g., community landing page, survey page
-        doOverviewMods();
-        return true;
     }
     return false;
 }
-
+// SHOULD BE ABLE TO DO THIS AUTOMATICALLY FROM THE JSON FILE THAT LOADS THIS STUFF
 function appendStyleSheet(cssURL) {
     var debug = false;
     if (debug) console.log("Appending css: " + cssURL);
@@ -151,7 +116,6 @@ function appendStyleSheet(cssURL) {
 
 function doBlogListingMods(buttns) {
     //container-fluid
-    appendStyleSheet('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css');
     for (var d = 0; d < buttns.length; d++) {
         if (buttns[d].innerHTML == "New Entry") buttns[d].innerHTML = 'New Blog Entry';
         if (buttns[d].innerHTML == "View All Entries") buttns[d].innerHTML = 'View All Blog Entries';
@@ -169,7 +133,6 @@ function doBlogListingMods(buttns) {
 
 function doBlogMods(buttns) {
     //container-fluid
-    appendStyleSheet('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css');
     for (var d = 0; d < buttns.length; d++) {
         if (buttns[d].innerHTML == "New Entry") buttns[d].innerHTML = 'New Blog Entry';
         if (buttns[d].innerHTML == "View All Entries") buttns[d].innerHTML = 'View All Blog Entries';
@@ -183,35 +146,6 @@ function doBlogMods(buttns) {
     jQuery('#lotusColLeft').addClass('col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12');
     jQuery('#lotusColRight').addClass('col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12');
     jQuery('#lotusContent').addClass('col-lg-6 col-md-6 col-sm-6 col-xs-12 col-xxs-12');
-}
-function doOverviewMods() {
-    //container-fluid
-    appendStyleSheet('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css');
-    var layout = getPageLayout(); // options: 2-col, 3-col, 3-col w/banner
-    if (layout == '2-col') {
-        jQuery('#lotusFrame').addClass('container-fluid');
-        jQuery('#lotusBanner').parent().addClass('row');
-        jQuery('#lotusBanner').addClass('col-lg-12 col-md-12 col-sm-12 col-xs-12');
-        jQuery('#lotusTitleBar').addClass('row');
-        jQuery('#lotusTitleBar .lotusWrapper').addClass('col-lg-12 col-md-12 col-sm-12 col-xs-12 col-xxs-12');
-        jQuery('#lotusMain').addClass('row');
-        jQuery('#lotusColLeft').addClass('col-lg-3 col-md-3 col-sm-3 col-xs-12 col-xxs-12');
-        //jQuery('#lotusColRight').addClass('col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12');
-        jQuery('#lotusContent').addClass('col-lg-9 col-md-9 col-sm-9 col-xs-12 col-xxs-12');
-
-    } else {
-        // both 3-col versions
-        jQuery('#lotusFrame').addClass('container-fluid');
-        jQuery('#lotusBanner').parent().addClass('row');
-        jQuery('#lotusBanner').addClass('col-lg-12 col-md-12 col-sm-12 col-xs-12');
-        jQuery('#lotusTitleBar').addClass('row');
-        jQuery('#lotusTitleBar .lotusWrapper').addClass('col-lg-12 col-md-12 col-sm-12 col-xs-12 col-xxs-12');
-        jQuery('#lotusMain').addClass('row');
-        jQuery('#lotusColLeft').addClass('col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12');
-        jQuery('#lotusColRight').addClass('col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12');
-        jQuery('#lotusContent').addClass('col-lg-6 col-md-6 col-sm-12 col-xs-12 col-xxs-12');
-    }
-
 }
 
 function getPageLayout() {
@@ -239,6 +173,7 @@ function getPageLayout() {
 
 /* ------ actual stuff happening -------*/
 
+appendStyleSheet('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css');
 appendStyleSheet('https://rawgit.com/JSG1901/Muse/master/ProjectMuse.css'); // universal css settings
 appendStyleSheet('https://rawgit.com/JSG1901/Muse/master/ConnectionsBootstrap.css'); // Bootstrap customized for Connections environment (and extended to smaller screen sizes)
 
@@ -259,26 +194,9 @@ jQuery.initialize('*', function () {
                         $(this).css("margin-left", '');
                     });
                     break;
-                case 'ideation blog':
-                    break;
                 case 'blog listing':
                     appendStyleSheet('https://rawgit.com/JSG1901/Muse/master/blogsListing.css');
                     jQuery('h4').addClass('bidiAware');
-                    jQuery.initialize(".lotusui30_layout .lotusMain .lotusContent", function () {
-                        $(this).css("margin-left", '');
-                    });
-                    break;
-                case 'homepage':
-                    appendStyleSheet('https://rawgit.com/JSG1901/Muse/master/homepage.css');
-                    break;
-                case 'wiki':
-                    break;
-                case 'activity':
-                    break;
-                case 'files':
-                    break;
-                case 'genl community':
-                    appendStyleSheet('https://rawgit.com/JSG1901/Muse/master/blogs.css');
                     jQuery.initialize(".lotusui30_layout .lotusMain .lotusContent", function () {
                         $(this).css("margin-left", '');
                     });
@@ -287,7 +205,3 @@ jQuery.initialize('*', function () {
         }
     }
 });
-
-
-
-

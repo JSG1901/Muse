@@ -270,6 +270,26 @@ body .lotusui30_layout .lotusMain .lotusContent {
 body .lotusTable td.entryContentContainerTD p {
     padding-bottom: 5px;
 }
+
+body #lotusColRight .blogsFixedTable {
+                
+}
+body #lotusColRight .blogsFixedTable h4 {
+
+}
+body #lotusColRight .blogsFixedTable div:not(div.lotusLike) {
+
+}
+body #lotusColRight .blogsFixedTable div span[role="list"] {
+    display:block;
+}
+body #lotusColRight .blogsFixedTable div span.lotusDivider {
+    display:none;
+}
+body #lotusColRight .blogsFixedTable div span.vcard {
+    display:block;
+}
+
 @media(max-width:768px) {
     body.lotusui30 div.lotusPlaceBar h2 {
         font-size: 1.8em;
