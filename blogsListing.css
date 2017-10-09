@@ -281,6 +281,14 @@ body.lotusui30 .lotusRightCorner .lotusInner .icSearchPaneButton {
         display:none;
     }
 }
+@media(max-width: 991px) {
+    body .lotusui30_layout .lotusMain .lotusContent {
+        padding-top: 0;
+    }
+    body.lotusui30 div.lotusPlaceBar h2 {
+        font-size: 2em;
+    }
+}
 @media(max-width:1200px) {
     ul#blogsActionBar {
         top:0;
