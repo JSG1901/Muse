@@ -267,6 +267,9 @@ body.lotusui30 .lotusColLeft a.lotusF5:visited {
 body .lotusui30_layout .lotusMain .lotusContent {
     padding: 70px 20px 15px 15px;
 }
+body .lotusTable td.entryContentContainerTD p {
+    padding-bottom: 5px;
+}
 @media(max-width:768px) {
     body.lotusui30 div.lotusPlaceBar h2 {
         font-size: 1.8em;
