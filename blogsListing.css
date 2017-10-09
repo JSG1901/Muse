@@ -272,7 +272,8 @@ body .lotusTable td.entryContentContainerTD p {
 }
 
 body #lotusColRight .blogsFixedTable {
-                
+    font-family: Courier, "Helvetica Neue Light",Helvetica,Arial,sans-serif;
+    color: white;
 }
 body #lotusColRight .blogsFixedTable h4 {
 
