@@ -244,7 +244,7 @@ body.lotusui30 .lotusWidget h2,
 body.lotusui30 .lotusWidget2 h2 {
     font-family: Courier, "Helvetica Neue Light",Helvetica,Arial,sans-serif;
 }
-body .search-history-view-ui .lotusui30 .icSearchPaneButton {
+body.lotusui30 .lotusRightCorner .lotusInner .icSearchPaneButton {
     top: 20px;
     background-color: #b47100;
     outline: #b47100 solid 1px;
