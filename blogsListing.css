@@ -248,6 +248,7 @@ body.lotusui30 .lotusRightCorner .lotusInner .icSearchPaneButton {
     top: 20px;
     background-color: #b47100;
     outline: #b47100 solid 1px;
+    
 }
 
 @media(max-width:768px) {
