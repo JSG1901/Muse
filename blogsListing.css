@@ -262,6 +262,9 @@ body.lotusui30 .lotusColLeft a.lotusF5,
 body.lotusui30 .lotusColLeft a.lotusF5:visited {
     color: white;
 }
+.lotusui30 .lotusPostDetails p {
+    color: black;
+}
 
 @media(max-width:768px) {
     body.lotusui30 div.lotusPlaceBar h2 {
