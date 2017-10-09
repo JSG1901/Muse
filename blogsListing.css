@@ -295,6 +295,9 @@ body.lotusui30 .lotusRightCorner .lotusInner .icSearchPaneButton {
     body.lotusui30 div.lotusPlaceBar h2 {
         font-size: 2em;
     }
+    ul#blogsActionBar {
+        display:none;
+    }
 }
 @media(max-width:1200px) {
     ul#blogsActionBar {
