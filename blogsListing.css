@@ -280,7 +280,7 @@ body #lotusColRight .blogsFixedTable h4 {
 body #lotusColRight .blogsFixedTable div:not(div.lotusLike) {
 
 }
-body #lotusColRight .blogsFixedTable div span[role="list"] {
+body #lotusColRight .blogsFixedTable div span[role="listitem"] {
     display:block;
 }
 body #lotusColRight .blogsFixedTable div span.lotusDivider {
