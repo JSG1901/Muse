@@ -25,6 +25,13 @@ body.lotusui30 .lotusColRight .lotusSection2 .lotusHeading, .lotusui30 .lotusCol
     font-size: 14px;
     font-weight: 400;
 }
+body .lotusui30_layout .lotusColRight .lotusTable td>a, 
+body .lotusui30_layout .lotusColRight .lotusTable th, 
+body .lotusui30_layout .lotusContent .lotusTable .eventDiv a,
+body .lotusui30 a.lotusAction {
+    font-weight: 300;
+    font-size: 13px
+}
 .lotusWarningMsgs {
     font-size: 13px;
     font-weight: 300;
