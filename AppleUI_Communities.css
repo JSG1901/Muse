@@ -59,6 +59,12 @@ body .bhcNotice {
 body.lotusui30 .ics-scbanner.isfixed {
     box-shadow: 0 5px 10px #aaa;
 }
+body.lotusui30 .lotusTitleBar, 
+body.lotusui30 .lotusTitleBar2,
+body.lotusui30_body .lotusMain, 
+body .lotusui30_layout .lotusColLeft {
+    background: #F9F9FB;
+}
 /*****    smaller screens    *****/
 @media screen and (max-width: 1024px) {
     
