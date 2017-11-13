@@ -6,7 +6,8 @@ html body.lotusui30_body {
     font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica",Roboto, "Arial",sans-serif;
 }
 .lotusui30_body .ics-scbanner {
-    background: rgba(0,0,0,0.8);
+    background: white;
+    color: #333;
 }
 body.lotusui30 .lotusPostContent .lotusPostAction .vcard,
 body.lotusui30 .lotusBoard .lotusStream #activityStreamMain.lotusWidgetBody .lotusPost,
@@ -28,8 +29,24 @@ body .lotusWarningMsgs {
     font-size: 13px;
     font-weight: 300;
 }
+body .hikari.ics-scbanner > a, 
+body .hikari.ics-scbanner > a:visited, 
+body .hikari.ics-scbanner > a:hover, 
+body .hikari.ics-scbanner > a:focus, 
+body .hikari.ics-scbanner > a:active, 
+body .gen4.ics-scbanner > a, 
+body .gen4.ics-scbanner > a:visited, 
+body .gen4.ics-scbanner > a:hover, 
+body .gen4.ics-scbanner > a:focus, 
+body .gen4.ics-scbanner > a:active, 
+body .colour.ics-scbanner > a, 
+body .colour.ics-scbanner > a:visited, 
+body .colour.ics-scbanner > a:hover, 
+body .colour.ics-scbanner > a:focus, 
+body .colour.ics-scbanner > a:active {
+    color: #999 !important;
+}
+/*****    smaller screens    *****/
 @media screen and (max-width: 1024px) {
-    .lotusWrapper {
-        background: none;
-    }
+    
 }
