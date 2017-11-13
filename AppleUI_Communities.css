@@ -81,6 +81,10 @@ body.lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusCommentLis
     font-size: 14px;
     font-weight: 400;
 }
+body #homepageLeftNavigationMenuContainer {
+    margin-top: 125px;
+    margin-left: 40px;
+}
 /*****    smaller screens    *****/
 @media screen and (max-width: 1024px) {
     
