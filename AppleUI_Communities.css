@@ -1,0 +1,258 @@
+/* design and css by Scott Good scott.good@us.ibm.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+ 
+/* all navigation at top of page */
+.lotusui30 .lotusInlinelist {
+    margin: 2px 0 0 0;
+}
+.lotusui30 .lotusBanner .lotusLogo {
+    display: block;   
+}
+/* main nav bar at top */
+.lotusui30 div.lotusBanner .lotusRightCorner {
+	height: 46px;
+}
+.lotusui30_body .lotusFrame {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0 44px;
+    width: 100%;
+	height: 30vw;
+}
+body.FlyOut div#xccBody.container {
+    margin-top: 20px;
+}
+.xccstyle .lotusTitleBar .lotusInner, .xccstyle .lotusTitleBar2 .lotusInner {
+    overflow: hidden;
+}
+.xccstyle div.adminpanel {
+    margin: 60px 0 0 0;
+}
+.xccstyle .edit .custlink_fixed {
+    top: 55px;
+}
+.btn-group > button.btn.disabledEditMode {
+    margin-top: 20px;
+}
+.btn-group > button.btn.disabledEditMode.enabledEditMode {
+    margin-top: -10px;
+}
+.xccstyle .navtop .navigation {
+    margin: 68px 0 1px 0;
+}
+.xccstyle .navtop .maindrop li a {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+/* selected item in navigation menu */
+.xccstyle .navtop .subdrop {
+    display: none;
+    left: -1px;
+    position: absolute;
+    top: 25px;
+}
+.lotusui30 .lotusBanner img.lotusDropDownSprite {
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+    margin-left: 3px;
+}
+.xccstyle .navtop .navigation {
+    margin-right:0;
+}
+/* drop-down menu icons ... made gray */
+.lconnSprite-iconActivitiesBlue16 {
+    background-position: 0 -24px;
+}
+.lconnSprite-iconBlogsBlue16 {
+    background-position: 0 -72px;
+}
+.lconnSprite-iconBookmarksBlue16 {
+    background-position: 0 -120px;
+}
+.lconnSprite-iconFilesBlue16 {
+    background-position: 0 -169px;
+}
+.lconnSprite-iconForumsBlue16 {
+    background-position: 0 -240px;
+}
+.lconnSprite-iconWikisBlue16 {
+    background-position: 0 -360px;
+}
+.xccstyle .xccCommunityOverview .newsOverviewContainer, 
+.xccstyle .xccNewsOverview .newsOverviewContainer {
+    height: auto;
+}
+.lotusui30 .lotusBanner .lotusIBMLogo,
+#headerHelpLink img {
+    position: relative;
+    top: -3px;
+}
+.lotusui30 .lotusBanner ul.lotusInlinelist li#lotusBannerNotifications {
+    position: relative;
+    top: 3px;
+}
+/* Center Video fix */
+.xccstyle .video-container {
+    padding-top: 8px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+} 
+/* end drop-down menu icons */
+.container, .ui-widget {
+   font-family: 'Open Sans', "Helvetica Neue", Roboto, Helvetica, Arial !important;
+}
+.container a:not(.xccStaticLink):not(.download), 
+.container a:not(.xccStaticLink):not(.download):visited, 
+.ui-widget a:not(.xccStaticLink):not(.download), 
+.ui-widget a:not(.xccStaticLink):not(.download):visited {
+    font-size: 13px;
+}
+.container h4, .ui-widget h4 {
+    font-size: 1.05em;
+    font-weight: 700;
+    margin: 0 1em 4px 0;
+}
+.xccstyle .xcctabbedwidget .qlC .qlLinks a {
+    padding: 5px 0 5px 10px;
+}
+.xccstyle .xcctabbedwidget .qlC .qlLinks a.rss-link {
+    padding: 5px 0 5px 0;
+}
+.xccstyle .xcctabbedwidget .qlC .qlLinks a::before {
+    content: " -  ";
+}
+.xccstyle .xcctabbedwidget .qlC .qlLinks a.rss-entry-inner::before,
+.xccstyle .xcctabbedwidget .qlC .qlLinks a.rss-link::before,
+.xccstyle .xcctabbedwidget .qlC .qlLinks .xcc-pager a::before {
+    content: "";
+}
+.xccstyle .rss-headline {
+    font-weight: 600;
+}
+.xccstyle .xcctabbedwidget .qlC .qlLinks .xcc-pager a {
+    padding: 0;
+}
+.h3, h3 {
+    font-size: 1vw;
+}
+.xccstyle .xccWidget[data-wtype="Activity Stream"] .maindiv .stream .ASWidgetMainNavi .ASWidgetLeftNaviPart a, 
+.xccstyle .xccWidget[data-wtype="Activity Stream"] .maindiv .stream .ASWidgetMainNavi .ASWidgetRightNaviPart a, 
+.xccstyle .chpFlyout .maindiv .stream .ASWidgetMainNavi .ASWidgetLeftNaviPart a, 
+.xccstyle .chpFlyout .maindiv .stream .ASWidgetMainNavi .ASWidgetRightNaviPart a,
+.xccstyle .xccWidget[data-wtype="Activity Stream"] .ASWidgetMainNavi, 
+.xccstyle .chpFlyout .ASWidgetMainNavi {
+    padding: 10px;
+}
+.xccstyle .xccWidget[data-wtype="Activity Stream"] nav.ASWidgetMainNavi, 
+.xccstyle .chpFlyout nav.ASWidgetMainNavi {
+    margin-top: 15px;
+    padding:0;
+}
+.xccstyle .xccWidget .btn {
+    font-size: 0.95em;
+}
+.xccstyle .xccSource, .xccstyle .xccSource a {
+    font-size: 11px!important;
+}
+.xccstyle .xccWidget[data-wname=ColleagueProfile][data-wtype=lc] .entry .lotusLeft {
+    font-size: 0.9em;
+}
+.xccstyle .xccWidget {
+    margin: 25px 0 0 0;
+}
+.xccstyle .xccWidget .wheader .wtitle {
+    color: black;   
+    font-family: 'Open Sans', "Helvetica Neue", Roboto, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.xccstyle .rss-thumb-right,
+.xccstyle .rss-thumb-left {
+    max-width: 100%;
+}
+.xccstyle .xccWidget .wheader {
+    border-bottom: none;
+}
+.xccstyle .navtop .navigation {
+    border: none;
+}
+.xccstyle .navtop .maindrop li:last-child a {
+    border-right: none;
+}
+.lotusui30_fonts {
+    font-family: 'Open Sans', "Helvetica Neue", Roboto, Helvetica ,Arial, sans-serif;
+}
+.lotusui30 a:active,
+.lotusui30 a:hover,
+.lotusui30 a:focus {
+    text-decoration:none;
+}
+.xccstyle .lotusTitleBar .lotusSearch .lotusLayout, .xccstyle .lotusTitleBar2 .lotusSearch .lotusLayout {
+    display: none;
+}
+.xccstyle .lotusTitleBar2 {
+    height: 0;
+}
+.xccHeader .btn-group {
+    top: 32px;
+}
+.xccstyle #xccMain {
+    margin-top: -45px;
+}
+.xccstyle .container:not(.xccstyle .container .xcc-pers-prop) {
+    top: -45px;
+}
+.dijitCalendarContainer.activitiesCalendar {
+    border-radius: 10px;
+    padding: 3px 5px;
+    position: relative;
+    top: -10px;
+    margin-right: 10px;
+}
+.lotusui30 .lotusTitleBar2 .lotusHeading .lotusText {
+    display:none;
+}
+.container .breadcrumb a:not(.xccStaticLink):not(.download):hover {
+    text-decoration: underline;
+}
+.xccstyle .breadcrumb::before {
+    content: "You are here: "
+}
+.xccstyle .breadcrumb>li:first-of-type {
+    padding-left: 5px;
+}
+
+/* - - - - - - - - - - -  */ 
+
+@media screen and (max-width: 1024px) {
+    .lotusWrapper {
+        background: none;
+    }
+}
+.lotusui30_fonts {
+    font-family: 'Open Sans', "Helvetica Neue", Roboto, Helvetica, Arial, sans-serif;
+}
+.xccstyle .lotusTitleBar .lotusSearch .lotusLayout, .xccstyle .lotusTitleBar2 .lotusSearch .lotusLayout {
+    display: none;
+}
+.xccstyle .lotusTitleBar2 {
+    height: 0;
+}
+.xccHeader .btn-group {
+    top: 32px;
+}
+.FlyOut .btn-group>.btn:first-child {
+    top: 30px;
+}
+
+.xccstyle .container:not(.xccstyle .container .xcc-pers-prop) {
+    top: -45px;
+}
+
+@media screen and (max-width: 1024px) {
+    .lotusWrapper {
+        background: none;
+    }
+}
