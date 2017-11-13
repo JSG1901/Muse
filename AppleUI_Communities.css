@@ -72,7 +72,11 @@ body.lotusui30 .lotusBoard ul.lotusCommentList li.lotusCommentItem {
 body.lotusui30 .lotusBoard ul.lotusCommentList li.lotusCommentItem:first-child {
     background-color: #f3f3f3;
 }
-
+body.lotusui30 .lotusPostContent .lotusPostAction .activityStreamSummary .vcard, 
+body.lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusCommentList .lotusCommentItem .lotusPostContent .vcard * {
+    font-size: 14px;
+    font-weight: 400;
+}
 /*****    smaller screens    *****/
 @media screen and (max-width: 1024px) {
     
