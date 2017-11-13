@@ -2,33 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
  
-html body {
+html body.lotusui30_body {
     font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica",Roboto, "Arial",sans-serif;
 }
-/* all navigation at top of page */
-.lotusui30 .lotusInlinelist {
-    margin: 2px 0 0 0;
-}
-.lotusui30 .lotusBanner .lotusLogo {
-    display: block;   
-}
-/* main nav bar at top */
-.lotusui30 div.lotusBanner .lotusRightCorner {
-	height: 46px;
-}
 
-/* selected item in navigation menu */
-.navtop .subdrop {
-    display: none;
-    left: -1px;
-    position: absolute;
-    top: 25px;
-}
-.lotusui30 .lotusBanner img.lotusDropDownSprite {
-    opacity: 0.3;
-    filter: alpha(opacity=30);
-    margin-left: 3px;
-}
 
 
 @media screen and (max-width: 1024px) {
