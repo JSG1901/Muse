@@ -101,7 +101,7 @@ body.FlyOut div#xccBody.container {
 } 
 /* end drop-down menu icons */
 .container, .ui-widget {
-   font-family: 'Open Sans', "Helvetica Neue", Roboto, Helvetica, Arial !important;
+   font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica",Roboto, "Arial",sans-serif;
 }
 .container a:not(.xccStaticLink):not(.download), 
 .container a:not(.xccStaticLink):not(.download):visited, 
@@ -164,7 +164,7 @@ body.FlyOut div#xccBody.container {
 }
 .xccstyle .xccWidget .wheader .wtitle {
     color: black;   
-    font-family: 'Open Sans', "Helvetica Neue", Roboto, Helvetica, Arial, sans-serif;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica",Roboto, "Arial",sans-serif;
     text-transform: uppercase;
     font-size: 14px;
 }
@@ -182,7 +182,7 @@ body.FlyOut div#xccBody.container {
     border-right: none;
 }
 .lotusui30_fonts {
-    font-family: 'Open Sans', "Helvetica Neue", Roboto, Helvetica ,Arial, sans-serif;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica",Roboto, "Arial",sans-serif;
 }
 .lotusui30 a:active,
 .lotusui30 a:hover,
@@ -232,7 +232,7 @@ body.FlyOut div#xccBody.container {
     }
 }
 .lotusui30_fonts {
-    font-family: 'Open Sans', "Helvetica Neue", Roboto, Helvetica, Arial, sans-serif;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica",Roboto, "Arial",sans-serif;
 }
 .xccstyle .lotusTitleBar .lotusSearch .lotusLayout, .xccstyle .lotusTitleBar2 .lotusSearch .lotusLayout {
     display: none;
