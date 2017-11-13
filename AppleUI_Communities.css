@@ -8,7 +8,11 @@ html body.lotusui30_body {
 .lotusui30_body .ics-scbanner {
     background: rgba(0,0,0,0.8);
 }
-
+body.lotusui30 .lotusPostContent .lotusPostAction .vcard,
+body.lotusui30 .lotusBoard .lotusStream #activityStreamMain.lotusWidgetBody .lotusPost {
+    font-size: 14px;
+    font-weight: 100;
+}
 
 @media screen and (max-width: 1024px) {
     .lotusWrapper {
