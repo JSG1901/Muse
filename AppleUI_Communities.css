@@ -9,11 +9,25 @@ html body.lotusui30_body {
     background: rgba(0,0,0,0.8);
 }
 body.lotusui30 .lotusPostContent .lotusPostAction .vcard,
-body.lotusui30 .lotusBoard .lotusStream #activityStreamMain.lotusWidgetBody .lotusPost {
+body.lotusui30 .lotusBoard .lotusStream #activityStreamMain.lotusWidgetBody .lotusPost,
+body.lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusPostContent .fileMeta .inlineSepList li,
+body.lotusui30 .lotusMenu li a, 
+body.lotusui30 .lotusMenu li a:visited {
     font-size: 14px;
-    font-weight: 100;
+    font-weight: 300;
 }
-
+body #activityStreamHeader.lotusHeader {
+    font-size: 14px;
+    font-weight: 300;
+}
+body.lotusui30 .lotusColRight .lotusSection2 .lotusHeading, .lotusui30 .lotusColRight .lotusSection2 .lotusHeading2 {
+    font-size: 14px;
+    font-weight: 400;
+}
+body .lotusWarningMsgs {
+    font-size: 13px;
+    font-weight: 300;
+}
 @media screen and (max-width: 1024px) {
     .lotusWrapper {
         background: none;
