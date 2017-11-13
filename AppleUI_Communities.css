@@ -74,6 +74,7 @@ body.lotusui30 .lotusBoard ul.lotusCommentList li.lotusCommentItem:first-child {
 }
 body.lotusui30 .lotusBoard ul.lotusCommentList > li {
     border-color: transparent;
+    background-color:transparent;
 }
 body.lotusui30 .lotusPostContent .lotusPostAction .activityStreamSummary .vcard, 
 body.lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusCommentList .lotusCommentItem .lotusPostContent .vcard * {
