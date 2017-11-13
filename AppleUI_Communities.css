@@ -53,6 +53,12 @@ body .colour.ics-scbanner > a:focus,
 body .colour.ics-scbanner > a:active {
     color: #999 !important;
 }
+body .bhcNotice {
+    display:none;
+}
+body.lotusui30 .ics-scbanner.isfixed {
+    box-shadow: 0 5px 10px #aaa;
+}
 /*****    smaller screens    *****/
 @media screen and (max-width: 1024px) {
     
