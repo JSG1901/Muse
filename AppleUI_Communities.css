@@ -5,7 +5,7 @@
 html body.lotusui30_body {
     font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica",Roboto, "Arial",sans-serif;
 }
-.lotusui30_body .icsbanner {
+.lotusui30_body .ics-scbanner {
     background: rgba(0,0,0,0.8);
 }
 
