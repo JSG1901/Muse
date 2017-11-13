@@ -7,7 +7,7 @@ html body.lotusui30_body {
 }
 .lotusui30_body .ics-scbanner {
     background: white;
-    color: #333;
+    color: #999;
 }
 body.lotusui30 .lotusPostContent .lotusPostAction .vcard,
 body.lotusui30 .lotusBoard .lotusStream #activityStreamMain.lotusWidgetBody .lotusPost,
@@ -25,7 +25,7 @@ body.lotusui30 .lotusColRight .lotusSection2 .lotusHeading, .lotusui30 .lotusCol
     font-size: 14px;
     font-weight: 400;
 }
-body .lotusWarningMsgs {
+.lotusWarningMsgs {
     font-size: 13px;
     font-weight: 300;
 }
