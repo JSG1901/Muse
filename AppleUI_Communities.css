@@ -1,9 +1,8 @@
 /* design and css by Scott Good scott.good@us.ibm.com */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
  
 html body.lotusui30_body {
-    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica",Roboto, "Arial",sans-serif;
+    font-family: "Helvetica","Helvetica Neue", Roboto, "Arial",sans-serif;
 }
 .lotusui30_body .ics-scbanner {
     background: white;
@@ -63,7 +62,7 @@ body.lotusui30 .lotusTitleBar,
 body.lotusui30 .lotusTitleBar2,
 body.lotusui30_body .lotusMain, 
 body .lotusui30_layout .lotusColLeft {
-    background: #F9F9FB;
+    /* background: #F9F9FB; */
 }
 /*****    smaller screens    *****/
 @media screen and (max-width: 1024px) {
