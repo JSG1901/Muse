@@ -64,6 +64,15 @@ body.lotusui30_body .lotusMain,
 body .lotusui30_layout .lotusColLeft {
     /* background: #F9F9FB; */
 }
+body.lotusui30 .lotusBoard ul.lotusCommentList li.lotusCommentItem {
+    background-color: #f9f9f9;
+    border-width: 0 0 1px 0;
+    border-color: #eee;
+}
+body.lotusui30 .lotusBoard ul.lotusCommentList li.lotusCommentItem:first-child {
+    background-color: #f3f3f3;
+}
+
 /*****    smaller screens    *****/
 @media screen and (max-width: 1024px) {
     
