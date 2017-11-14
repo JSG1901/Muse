@@ -145,8 +145,11 @@ body.lotusui30 .lotusContent .lotusStream #activityStreamMain.lotusWidgetBody .l
 }
 body.lotusui30 .lotusBoard .lotusStream .lotusWidgetBody#activityStreamMain .lotusPostHover {
     background-color: #fff;
-    border: 2pt solid #eee;
-    padding: 23px;
+    border: 5pt solid #eee;
+    padding: 18px;
+    background-image: url(http://www.1mtb.com/wp-content/uploads/2014/03/top-10-best-free-online-cloud-storage-services.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 body .ics-scbanner > a:hover::after, .ics-scbanner > button:hover::after, 
 body .ics-scbanner > .navmenu:hover::after {
