@@ -4,6 +4,9 @@
 html body.lotusui30_body {
     font-family: "Helvetica","Helvetica Neue", Roboto, "Arial",sans-serif;
 }
+body {
+    background: url(brain-1710293.svg) no-repeat center center;
+}
 body.lotusui30_body {
     /* center and right BGs come from this */
 }
