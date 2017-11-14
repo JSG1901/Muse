@@ -66,10 +66,22 @@ body.lotusui30 .ics-scbanner.isfixed {
 body.lotusui30 .lotusTitleBar, 
 body .lotusui30_layout .lotusColLeft,
 .lotusui30_layout .lotusColLeft:after {
-    /* left column background */
+    /* left column background (also see below) */
     background: #F9F9FB; 
 }
-
+body .lotusui30_layout .lotusColLeft:after {
+    /* main area of left column background */
+    border-left: 1000px solid #F9F9FB;
+    background: #F9F9FB;
+    width: 1px;
+    border-right: 240px solid #F9F9FB;
+    content: "";
+    margin-left: -1001px;
+    position: fixed;
+    bottom: 0;
+    height: 100%;
+    z-index: -2;
+}
 body.lotusui30 .lotusBoard ul.lotusCommentList li.lotusCommentItem {
     background-color: #f9f9f9;
     border-width: 0 0 1px 0;
