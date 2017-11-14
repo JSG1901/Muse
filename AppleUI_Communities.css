@@ -122,10 +122,11 @@ body.lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .streamHeaderWra
 body .lotusStream #activityStreamMain.lotusWidgetBody .stream-finLeft, 
 body .lotusStream #activityStreamMain.lotusWidgetBody .stream-finRight {
     /* the "I'm following" links background */
-    background: #ccc;
+    background: #eee;
 }
 body .otherActivityStream14-asKnockedfin14 {
-    background: #ccc url(/connections/resources/web/com.ibm.social.hikari.theme/sprite/otherActivityStream14-8bit.png?etag=20170808.150051);
+    background: #eee;
+    background-image: none;
     background-position: 0 -65px;
     width:14px;
     height: 8px;
