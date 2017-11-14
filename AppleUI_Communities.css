@@ -132,6 +132,15 @@ body .otherActivityStream14-asKnockedfin14 {
 body.lotusui30 .lotusPaging .lotusInlinelist li {
     border-left: 1px solid #aaa;
 }
+body.lotusui30 .lotusContent .lotusStream #activityStreamMain.lotusWidgetBody .lotusPagingTop.lotusPaging ul.lotusInlinelist li a {
+    color: #666;
+    padding: 10px 20px 0;
+    font-size: 13px;
+    margin: 2px;
+}
+body.lotusui30 .lotusContent .lotusStream #activityStreamMain.lotusWidgetBody .lotusPagingTop.lotusPaging ul.lotusInlinelist li a.filterSelected {
+    color: #444;
+}
 /*****    smaller screens    *****/
 @media screen and (max-width: 1024px) {
     
