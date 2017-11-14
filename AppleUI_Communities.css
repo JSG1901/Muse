@@ -117,6 +117,21 @@ html html body .lotusWarningMsgs {
     font-weight: 300;
     color: red;
 }
+body.lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .streamHeaderWrapper .lotusPaging,
+body .lotusStream #activityStreamMain.lotusWidgetBody .stream-finLeft, 
+body .lotusStream #activityStreamMain.lotusWidgetBody .stream-finRight {
+    /* the "I'm following" links background */
+    background: #ccc;
+}
+body .otherActivityStream14-asKnockedfin14 {
+    background: #ccc url(/connections/resources/web/com.ibm.social.hikari.theme/sprite/otherActivityStream14-8bit.png?etag=20170808.150051);
+    background-position: 0 -65px;
+    width:14px;
+    height: 8px;
+}
+body.lotusui30 .lotusPaging .lotusInlinelist li {
+    border-left: 1px solid #aaa;
+}
 /*****    smaller screens    *****/
 @media screen and (max-width: 1024px) {
     
