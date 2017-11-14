@@ -146,6 +146,7 @@ body.lotusui30 .lotusContent .lotusStream #activityStreamMain.lotusWidgetBody .l
 body.lotusui30 .lotusBoard .lotusStream .lotusWidgetBody#activityStreamMain .lotusPostHover {
     background-color: #fff;
     border: 2pt solid #eee;
+    padding: 23px;
 }
 body .ics-scbanner > a:hover::after, .ics-scbanner > button:hover::after, 
 body .ics-scbanner > .navmenu:hover::after {
