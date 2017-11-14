@@ -85,6 +85,17 @@ body #homepageLeftNavigationMenuContainer {
     margin-top: 125px;
     margin-left: 40px;
 }
+body .lotusui30_layout .lotusColLeft {
+    margin-right: 80px;
+}
+body .lotusui30_layout .lotusColRight {
+    margin-left: 80px;
+}
+html html body .lotusWarningMsgs {
+    font-size: 13px;
+    font-weight: 300;
+    color: red;
+}
 /*****    smaller screens    *****/
 @media screen and (max-width: 1024px) {
     
