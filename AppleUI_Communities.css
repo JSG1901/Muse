@@ -85,7 +85,7 @@ body .lotusui30_layout .lotusColLeft:after {
     z-index: -2;
 }
 body.lotusui30 .lotusBoard ul.lotusCommentList li.lotusCommentItem {
-    background-color: #f9f9f9;
+    background-color: #fff;
     border-width: 0 0 1px 0;
     border-color: #eee;
 }
@@ -141,7 +141,7 @@ body.lotusui30 .lotusContent .lotusStream #activityStreamMain.lotusWidgetBody .l
     color: #444;
 }
 .lotusui30 .lotusBoard .lotusStream .lotusPostHover {
-    background-color: #e0e0e0;
+    background-color: #eee;
 }
 
 /*****    smaller screens    *****/
