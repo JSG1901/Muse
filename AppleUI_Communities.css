@@ -4,10 +4,14 @@
 html body.lotusui30_body {
     font-family: "Helvetica","Helvetica Neue", Roboto, "Arial",sans-serif;
 }
-.lotusui30_body .ics-scbanner {
+body.lotusui30_body {
+    /* center and right BGs come from this */
+}
+body.lotusui30_body .ics-scbanner {
     background: white;
     color: #999;
 }
+
 body.lotusui30 .lotusPostContent .lotusPostAction .vcard,
 body.lotusui30 .lotusBoard .lotusStream #activityStreamMain.lotusWidgetBody .lotusPost,
 body.lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusPostContent .fileMeta .inlineSepList li,
@@ -56,14 +60,16 @@ body .bhcNotice {
     display:none;
 }
 body.lotusui30 .ics-scbanner.isfixed {
-    box-shadow: 0 5px 10px #aaa;
+    /* header bottom shadow here */
+    box-shadow: 0 5px 10px #ccc;
 }
 body.lotusui30 .lotusTitleBar, 
-body.lotusui30 .lotusTitleBar2,
-body.lotusui30_body .lotusMain, 
-body .lotusui30_layout .lotusColLeft {
-    /* background: #F9F9FB; */
+body .lotusui30_layout .lotusColLeft,
+.lotusui30_layout .lotusColLeft:after {
+    /* left column background */
+    background: #F9F9FB; 
 }
+
 body.lotusui30 .lotusBoard ul.lotusCommentList li.lotusCommentItem {
     background-color: #f9f9f9;
     border-width: 0 0 1px 0;
