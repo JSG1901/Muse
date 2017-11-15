@@ -11,7 +11,8 @@ body.lotusui30_body {
 }
 body.lotusui30_body .ics-scbanner {
     background: white;
-    color: #999;
+    color: #ccc;
+    font-size: 14px;
 }
 
 body.lotusui30 .lotusPostContent .lotusPostAction .vcard,
@@ -62,7 +63,13 @@ body .colour.ics-scbanner > a,
 body .colour.ics-scbanner > a:visited, 
 body .colour.ics-scbanner > a:focus, 
 body .colour.ics-scbanner > a:active {
-    color: #999 !important;
+    color: #ccc !important;
+}
+body .hikari.ics-scbanner > a:active, 
+body .gen4.ics-scbanner > a:active, 
+body .colour.ics-scbanner > a, 
+body .colour.ics-scbanner > a:active {
+    color: #666 !important;
 }
 body .hikari.ics-scbanner > a:hover, 
 body .gen4.ics-scbanner > a:hover, 
@@ -179,10 +186,14 @@ body.lotusui30 .lotusBoard .lotusAddComment .lotusStreamUpdate .lconnRTE .cke_co
 body.lotusui30 .lotusBoard .lotusStreamUpdate .lconnRTE .cke {
     border: none;
 }
-.lotusui30 .lotusInlinelist {
+body.lotusui30 .lotusInlinelist {
     margin: 0;
     padding: 0 0 10px;
     list-style-type: none;
+}
+body .otherActivityStream14-asSearchMag14 {
+    /* magnifying glass icon */
+    background-position: 0 -370px;
 }
 /*****    smaller screens    *****/
 @media screen and (max-width: 1024px) {
