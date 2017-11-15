@@ -238,6 +238,12 @@ body.lotusui30 .lotusMenu li.lotusSelected a:visited {
     border-bottom: 1px solid transparent;
     border-top: 1px solid transparent;
 }
+body .lotusliveui, 
+body .lotusliveui30, .scloud3 {
+    font: normal .75em/1.5 "Helvetica","Helvetica Neue", Roboto, "Arial", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
 /*****    smaller screens    *****/
 @media screen and (max-width: 1024px) {
     
