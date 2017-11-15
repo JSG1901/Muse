@@ -80,9 +80,9 @@ body .gen4.ics-scbanner > a:hover,
 body .colour.ics-scbanner > a:hover {
     color: #666 !important;
 }
-body .hikari.ics-scbanner .selected, 
-body .gen4.ics-scbanner .selected, 
-body .colour.ics-scbanner .selected {
+body .hikari.ics-scbanner > a.selected, 
+body .gen4.ics-scbanner  > a.selected, 
+body .colour.ics-scbanner > a.selected {
     color: #666 !important;
 }
 body .bhcNotice {
