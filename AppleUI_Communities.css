@@ -92,8 +92,8 @@ body .lotusui30_layout .lotusColLeft:after {
     z-index: -2;
 }
 body.lotusui30 .lotusBoard ul.lotusCommentList li.lotusCommentItem {
-    background-color: #fff;
-    border-width: 0 0 1px 0;
+    background-color: rgba(255,255,255,0.5);
+    border-width: 0;
     border-color: #eee;
 }
 body.lotusui30 .lotusBoard ul.lotusCommentList li.lotusCommentItem:first-child {
@@ -162,6 +162,20 @@ body .ics-scbanner > .navmenu:hover::after {
 }
 body .lotusStream #activityStreamMain.lotusWidgetBody .streamHeaderWrapper.isSticky .streamHeaderInner {
     background-color: #eee;
+}
+body.lotusui30 .lotusBoard .lotusAddComment .lotusStreamUpdate .lconnRTE .cke_contents.lotusTextCollapsed {
+    /* add comments box container in activity stream */
+    height: 26px !important;
+    margin-bottom: 10px;
+    margin-top: 3px;
+}
+body.lotusui30 .lotusBoard .lotusStreamUpdate .lconnRTE .cke {
+    border: none;
+}
+.lotusui30 .lotusInlinelist {
+    margin: 0;
+    padding: 0 0 10px;
+    list-style-type: none;
 }
 /*****    smaller screens    *****/
 @media screen and (max-width: 1024px) {
