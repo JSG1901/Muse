@@ -151,7 +151,7 @@ body.lotusui30 .lotusContent .lotusStream #activityStreamMain.lotusWidgetBody .l
 body.lotusui30 .lotusBoard .lotusStream .lotusWidgetBody#activityStreamMain .lotusPostHover {
     background-color: #fff;
     border: 5pt solid #b5d7fc;
-    padding: 18px;
+    padding: 58px 18px 55px;
     background-image: url(https://rawgit.com/JSG1901/Muse/master/Clouds_50_BG.png);
     background-repeat: no-repeat;
     background-size: cover;
