@@ -270,6 +270,9 @@ body.lotusui30 .lotusSection2 .lotusSectionFooter .lotusPaging {
 body #hpUserPhoto a {
     display:none;
 }
+body .lotusui30_layout .lotusMain .lotusContent {
+    margin: 17px 0 40px;
+}
 /*****    smaller screens    *****/
 @media screen and (max-width: 1024px) {
     
