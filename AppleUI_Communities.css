@@ -225,7 +225,7 @@ body .lotusui30_layout .lotusColRight .lotusTable td,
 body .lotusui30_layout .lotusColRight .lotusTable th.lotusRowHeader, 
 body .lotusui30_layout .lotusColRight .lotusTable th.lotusSubHeader {
     border-top: none;
-    padding-bottom: 15px;
+    padding-bottom: 35px;
 }
 body.lotusui30 .lotusBoard .lotusStreamUpdate .lconnRTE .cke {
     border: none;
