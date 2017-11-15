@@ -218,6 +218,9 @@ body .lotusui30_layout .lotusColRight .lotusTable th.lotusSubHeader {
     border-top: none;
     padding-bottom: 15px;
 }
+body.lotusui30 .lotusBoard .lotusStreamUpdate .lconnRTE .cke {
+    border: none;
+}
 /*****    smaller screens    *****/
 @media screen and (max-width: 1024px) {
     
