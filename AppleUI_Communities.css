@@ -271,7 +271,7 @@ body #hpUserPhoto a {
     display:none;
 }
 body .lotusui30_layout .lotusMain .lotusContent {
-    margin: 17px 0 40px;
+    margin: 17px 0 40px 310px;
 }
 /*****    smaller screens    *****/
 @media screen and (max-width: 1024px) {
