@@ -273,6 +273,20 @@ body #hpUserPhoto a {
 body .lotusui30_layout .lotusMain .lotusContent {
     margin: 17px 0 40px 310px;
 }
+body.lotusui30 .lotusFlyout .lotusFlyoutHeader {
+    color: #444;
+    background-color: #aaa;
+}
+body.lotusui30 .lotusFlyout .lotusFlyoutHeader .vcard>a {
+    color: #444;
+}
+body.lotusui30 .lotusFlyout .lotusFlyoutHeader .flyoutTitleContainer td.flyoutTime {
+    color: #666;
+}
+body.lotusui30dojo a, 
+body.lotusui30dojo a:visited {
+    color: #4178be;
+}
 /*****    smaller screens    *****/
 @media screen and (max-width: 1024px) {
     
