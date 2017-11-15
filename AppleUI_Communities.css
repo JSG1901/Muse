@@ -245,6 +245,14 @@ body.scloud3 {
     font-size: 15px;
     font-weight: 300;
 }
+body .lotusui30_layout .lotusColRight .lotusInfoBox, 
+body .lotusui30_layout .lotusColRight .lotusSection, 
+body .lotusui30_layout .lotusColRight .lotusSection2, 
+body .lotusui30_layout .lotusColRight .lotusTips, 
+body .lotusui30_layout .lotusColRight .lotusWidget, 
+body .lotusui30_layout .lotusColRight .lotusWidget2 {
+    margin: 0 0 45px;
+}
 /*****    smaller screens    *****/
 @media screen and (max-width: 1024px) {
     
