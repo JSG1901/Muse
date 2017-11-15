@@ -23,12 +23,17 @@ body.lotusui30 .lotusMenu li a:visited {
     font-weight: 300;
 }
 body #activityStreamHeader.lotusHeader {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
 }
 body.lotusui30 .lotusColRight .lotusSection2 .lotusHeading, .lotusui30 .lotusColRight .lotusSection2 .lotusHeading2 {
     font-size: 14px;
     font-weight: 400;
+}
+body.lotusui30 .lotusBoard .lotusStream #activityStreamMain.lotusWidgetBody .lotusPost {
+    padding: 65px 25px 60px;
+    margin: 1px;
+    border-bottom: 1pt solid #eee;
 }
 body .lotusui30_layout .lotusColRight .lotusTable td>a, 
 body .lotusui30_layout .lotusColRight .lotusTable th, 
