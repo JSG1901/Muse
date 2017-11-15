@@ -256,7 +256,12 @@ body .lotusui30_layout .lotusColRight .lotusWidget,
 body .lotusui30_layout .lotusColRight .lotusWidget2 {
     margin: 0 0 45px;
 }
-
+#lotusColRight .lotusSection2 {
+    display:none;
+}
+#lotusColRight .lotusSection2:last-child {
+    display:block;
+}
 /*****    smaller screens    *****/
 @media screen and (max-width: 1024px) {
     
