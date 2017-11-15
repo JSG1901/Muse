@@ -25,8 +25,9 @@ body.lotusui30 .lotusBoard .lotusStream #activityStreamMain.lotusWidgetBody .lot
 body.lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusPostContent .fileMeta .inlineSepList li,
 body.lotusui30 .lotusMenu li a, 
 body.lotusui30 .lotusMenu li a:visited {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
+    color: #999;
 }
 body #activityStreamHeader.lotusHeader {
     font-size: 16px;
@@ -220,6 +221,18 @@ body .lotusui30_layout .lotusColRight .lotusTable th.lotusSubHeader {
 }
 body.lotusui30 .lotusBoard .lotusStreamUpdate .lconnRTE .cke {
     border: none;
+}
+body.lotusui30 .lotusMenu .lotusHeaderSelected, 
+body.lotusui30 .lotusMenu li.lotusSelected a, 
+body.lotusui30 .lotusMenu li.lotusSelected a:active, 
+body.lotusui30 .lotusMenu li.lotusSelected a:focus, 
+body.lotusui30 .lotusMenu li.lotusSelected a:hover, 
+body.lotusui30 .lotusMenu li.lotusSelected a:visited {
+    color: #444;
+    text-decoration: none;
+    background: 0 0;
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
 }
 /*****    smaller screens    *****/
 @media screen and (max-width: 1024px) {
