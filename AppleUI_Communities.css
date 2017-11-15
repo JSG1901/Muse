@@ -29,6 +29,9 @@ body.lotusui30 .lotusMenu li a:visited {
     font-weight: 300;
     color: #999;
 }
+body.lotusui30 .lotusBoard .lotusStream #activityStreamMain.lotusWidgetBody .activityStreamNewsItemContainer.lotusPost {
+    border-bottom: 1pt solid #eee;
+}
 body.lotusui30 .lotusBoard .lotusStream #activityStreamMain.lotusWidgetBody .lotusPost.lotusPostHover {
     color: #333;
 }
@@ -253,6 +256,7 @@ body .lotusui30_layout .lotusColRight .lotusWidget,
 body .lotusui30_layout .lotusColRight .lotusWidget2 {
     margin: 0 0 45px;
 }
+
 /*****    smaller screens    *****/
 @media screen and (max-width: 1024px) {
     
