@@ -14,6 +14,9 @@ body.lotusui30_body .ics-scbanner {
     color: #ccc;
     font-size: 14px;
 }
+body.lotusui30_body .ics-scbanner:hover {
+    color: #666;
+}
 
 body.lotusui30 .lotusPostContent .lotusPostAction .vcard,
 body.lotusui30 .lotusBoard .lotusStream #activityStreamMain.lotusWidgetBody .lotusPost,
@@ -110,7 +113,7 @@ body.lotusui30 .lotusBoard ul.lotusCommentList li.lotusCommentItem {
 body.lotusui30 .lotusBoard ul.lotusCommentList li.lotusCommentItem:first-child {
     background-color: #f3f3f3;
 }
-body.lotusui30 .lotusBoard ul.lotusCommentList:hover li.lotusCommentItem:first-child {
+body.lotusui30 .lotusBoard .lotusPostHover ul.lotusCommentList li.lotusCommentItem:first-child {
     background-color: rgba(255,255,255,0.7);
 }
 body.lotusui30 .lotusBoard ul.lotusCommentList > li {
