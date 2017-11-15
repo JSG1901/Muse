@@ -32,8 +32,12 @@ body.lotusui30 .lotusColRight .lotusSection2 .lotusHeading, .lotusui30 .lotusCol
 }
 body.lotusui30 .lotusBoard .lotusStream #activityStreamMain.lotusWidgetBody .lotusPost {
     padding: 65px 25px 60px;
-    margin: 1px;
+    margin: 1px 0 5px;
     border-bottom: 1pt solid #eee;
+}
+body.lotusui30 .lotusBoard .lotusStream #activityStreamMain.lotusWidgetBody .lotusPost:hover {
+    margin: 1px 0 6px;
+    border-bottom: none;
 }
 body .lotusui30_layout .lotusColRight .lotusTable td>a, 
 body .lotusui30_layout .lotusColRight .lotusTable th, 
