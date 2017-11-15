@@ -287,6 +287,11 @@ body.lotusui30dojo a,
 body.lotusui30dojo a:visited {
     color: #4178be;
 }
+body .search-history-view-ui .lotusui30 .icSearchPaneButton {
+    top: 20px;
+    background-color: #ccc;
+    outline: #ccc solid 1px;
+}
 /*****    smaller screens    *****/
 @media screen and (max-width: 1024px) {
     
