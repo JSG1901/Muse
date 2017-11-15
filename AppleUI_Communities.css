@@ -194,7 +194,7 @@ body.lotusui30 .lotusBoard .lotusAddComment .lotusStreamUpdate .lconnRTE .cke_co
     margin-top: 3px;
 }
 body.lotusui30 .lotusBoard .lotusStreamUpdate .lconnRTE .cke {
-    border: none;
+    border: none!important;
 }
 body.lotusui30 .lotusInlinelist {
     margin: 0;
