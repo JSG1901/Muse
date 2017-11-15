@@ -92,6 +92,7 @@ body .hikari.ics-scbanner > a.selected,
 body .gen4.ics-scbanner  > a.selected, 
 body .colour.ics-scbanner > a.selected {
     color: #444!important;
+    font-weight:700;
 }
 body .bhcNotice {
     display:none;
