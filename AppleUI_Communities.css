@@ -29,6 +29,10 @@ body.lotusui30 .lotusMenu li a:visited {
     font-weight: 300;
     color: #999;
 }
+body.lotusui30 .lotusBoard .lotusStream #activityStreamMain.lotusWidgetBody .lotusPost.lotusPostHover {
+    color: #333;
+}
+
 body #activityStreamHeader.lotusHeader {
     font-size: 16px;
     font-weight: 300;
