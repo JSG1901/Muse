@@ -41,8 +41,8 @@ body #activityStreamHeader.lotusHeader {
     font-weight: 300;
 }
 body.lotusui30 .lotusColRight .lotusSection2 .lotusHeading, .lotusui30 .lotusColRight .lotusSection2 .lotusHeading2 {
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 300;
 }
 body.lotusui30 .lotusBoard .lotusStream #activityStreamMain.lotusWidgetBody .lotusPost {
     padding: 65px 25px 60px;
@@ -140,7 +140,7 @@ body.lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusCommentLis
     font-weight: 400;
 }
 body #homepageLeftNavigationMenuContainer {
-    margin-top: 125px;
+    margin-top: 25px;
     margin-left: 40px;
 }
 body .lotusui30_layout .lotusColLeft {
@@ -261,6 +261,12 @@ body .lotusui30_layout .lotusColRight .lotusWidget2 {
 }
 #lotusColRight .lotusSection2:last-child {
     display:block;
+}
+body.lotusui30 .lotusSection2 .lotusSectionFooter .lotusPaging {
+    font-size: 13px;
+}
+body #hpUserPhoto a {
+    display:none;
 }
 /*****    smaller screens    *****/
 @media screen and (max-width: 1024px) {
