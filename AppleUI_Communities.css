@@ -41,7 +41,7 @@ body.lotusui30 .lotusBoard .lotusStream #activityStreamMain.lotusWidgetBody .lot
     margin: 1px 0 5px;
     border-bottom: 1pt solid #eee;
 }
-body.lotusui30 .lotusBoard .lotusStream #activityStreamMain.lotusWidgetBody .lotusPost:hover {
+body.lotusui30 .lotusBoard .lotusStream #activityStreamMain.lotusWidgetBody .lotusPostHover {
     margin: 1px 0 6px;
     border-bottom: none;
 }
