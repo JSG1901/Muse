@@ -148,6 +148,7 @@ body .lotusui30_layout .lotusColLeft {
 }
 body .lotusui30_layout .lotusColRight {
     margin-left: 80px;
+    margin-right: 40px;
 }
 html html body .lotusWarningMsgs {
     font-size: 13px;
@@ -261,6 +262,8 @@ body .lotusui30_layout .lotusColRight .lotusWidget2 {
 }
 #lotusColRight .lotusSection2:last-child {
     display:block;
+    padding-right: 40px;
+    padding-left: 20px;
 }
 body.lotusui30 .lotusSection2 .lotusSectionFooter .lotusPaging {
     font-size: 13px;
