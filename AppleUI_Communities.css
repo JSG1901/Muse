@@ -81,17 +81,17 @@ body .hikari.ics-scbanner > a:active,
 body .gen4.ics-scbanner > a:active, 
 body .colour.ics-scbanner > a, 
 body .colour.ics-scbanner > a:active {
-    color: #666 !important;
+    color: #444!important;
 }
 body .hikari.ics-scbanner > a:hover, 
 body .gen4.ics-scbanner > a:hover, 
 body .colour.ics-scbanner > a:hover {
-    color: #666 !important;
+    color: #444!important;
 }
 body .hikari.ics-scbanner > a.selected, 
 body .gen4.ics-scbanner  > a.selected, 
 body .colour.ics-scbanner > a.selected {
-    color: #666 !important;
+    color: #444!important;
 }
 body .bhcNotice {
     display:none;
