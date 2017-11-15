@@ -17,7 +17,9 @@ body.lotusui30_body .ics-scbanner {
 body.lotusui30_body .ics-scbanner:hover {
     color: #666;
 }
-
+body.lotusui30_body .ics-scbanner .selected {
+    color: #666;
+}
 body.lotusui30 .lotusPostContent .lotusPostAction .vcard,
 body.lotusui30 .lotusBoard .lotusStream #activityStreamMain.lotusWidgetBody .lotusPost,
 body.lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusPostContent .fileMeta .inlineSepList li,
@@ -77,6 +79,11 @@ body .colour.ics-scbanner > a:active {
 body .hikari.ics-scbanner > a:hover, 
 body .gen4.ics-scbanner > a:hover, 
 body .colour.ics-scbanner > a:hover {
+    color: #666 !important;
+}
+body .hikari.ics-scbanner .selected, 
+body .gen4.ics-scbanner .selected, 
+body .colour.ics-scbanner .selected {
     color: #666 !important;
 }
 body .bhcNotice {
