@@ -180,7 +180,7 @@ body.lotusui30 .lotusContent .lotusStream #activityStreamMain.lotusWidgetBody .l
 body.lotusui30 .lotusContent .lotusStream #activityStreamMain.lotusWidgetBody .lotusPagingTop.lotusPaging ul.lotusInlinelist li a.filterSelected {
     color: #444;
 }
-body.lotusui30 .lotusBoard .lotusStream .lotusWidgetBody#activityStreamMain .lotusPostHover {
+body.lotusui30 .lotusBoard .lotusStream #activityStreamMain.lotusWidgetBody .activityStreamNewsItemContainer.lotusPost.lotusPostHover {
     background-color: #fff;
     border: 5pt solid #b5d7fc;
     padding: 58px 18px 55px;
