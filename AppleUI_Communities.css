@@ -41,7 +41,7 @@ body.lotusui30 .lotusBoard .lotusStream #activityStreamMain.lotusWidgetBody .lot
     margin: 1px 0 5px;
     border-bottom: 1pt solid #eee;
 }
-body.lotusui30 .lotusBoard .lotusStream #activityStreamMain.lotusWidgetBody .lotusPostHover {
+body.lotusui30 .lotusBoard .lotusStream #activityStreamMain.lotusWidgetBody .lotusPost.lotusPostHover {
     margin: 1px 0 6px;
     border-bottom: none;
 }
@@ -50,7 +50,7 @@ body .lotusui30_layout .lotusColRight .lotusTable th,
 body .lotusui30_layout .lotusContent .lotusTable .eventDiv a,
 body .lotusui30 a.lotusAction {
     font-weight: 300;
-    font-size: 13px
+    font-size: 14px
 }
 .lotusWarningMsgs {
     font-size: 13px;
@@ -166,8 +166,9 @@ body.lotusui30 .lotusPaging .lotusInlinelist li {
 body.lotusui30 .lotusContent .lotusStream #activityStreamMain.lotusWidgetBody .lotusPagingTop.lotusPaging ul.lotusInlinelist li a {
     color: #666;
     padding: 10px 20px 0;
-    font-size: 13px;
-    margin: 2px;
+    font-size: 15px;
+    font-weight: 100;
+    margin: 0px;
 }
 body.lotusui30 .lotusContent .lotusStream #activityStreamMain.lotusWidgetBody .lotusPagingTop.lotusPaging ul.lotusInlinelist li a.filterSelected {
     color: #444;
@@ -204,6 +205,19 @@ body.lotusui30 .lotusInlinelist {
 body .otherActivityStream14-asSearchMag14 {
     /* magnifying glass icon */
     background-position: 0 -370px;
+}
+body.lotusui30 .lotusStream .filterArea .icStream-labelInner {
+    font-size: 13px;
+}
+body.lotusui30 button, .lotusui30 input, .lotusui30 select {
+    font-family: "Helvetica","Helvetica Neue", Roboto, "Arial",sans-serif;
+    font-size: 13px;
+}
+body .lotusui30_layout .lotusColRight .lotusTable td, 
+body .lotusui30_layout .lotusColRight .lotusTable th.lotusRowHeader, 
+body .lotusui30_layout .lotusColRight .lotusTable th.lotusSubHeader {
+    border-top: none;
+    padding-bottom: 15px;
 }
 /*****    smaller screens    *****/
 @media screen and (max-width: 1024px) {
