@@ -287,7 +287,7 @@ body.lotusui30dojo a,
 body.lotusui30dojo a:visited {
     color: #4178be;
 }
-body .search-history-view-ui .lotusui30 .icSearchPaneButton {
+.search-history-view-ui .lotusui30 .icSearchPaneButton {
     top: 20px;
     background-color: #999;
     outline: #999 solid 1px;
