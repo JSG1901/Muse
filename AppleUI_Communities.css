@@ -319,7 +319,7 @@ body #lotusColRight div#communityDisplayArea {
     width: 100%;
 }
 body #lotusColRight div#communityDisplayArea a.communityContainer {
-    width: 40%;
+    width: 25%;
     float: left;
     padding: 0 10px 25px 15px;
 }
@@ -335,7 +335,7 @@ body #lotusColRight div#communityDisplayArea div.communityTitle {
     bottom: 0;
     color: white;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 10px;
     width: calc(100% - 20px);
     padding: 10px;
     font-weight: 400;
