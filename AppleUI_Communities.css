@@ -304,6 +304,7 @@ div[dojoattachpoint="showMoreText"]{
 }
 body.lotusui30 .lotusBoard .lotusStream .lotusPostSelected {
     background-color: #f9f9f9;
+}
 /*****    smaller screens    *****/
 @media screen and (max-width: 1024px) {
     
