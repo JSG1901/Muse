@@ -309,22 +309,22 @@ body.lotusui30 .lotusBoard .lotusStream .lotusPostSelected {
 
 /* communities display */
 
-body.lotusui30dojo div#communitiesDisplayArea {
+body div#communitiesDisplayArea {
     width: 100%;
 }
-body.lotusui30dojo div#communitiesDisplayArea a.communityContainer {
+body div#communitiesDisplayArea a.communityContainer {
     width: 45%;
     float: left;
     padding: 0 15px 15px 0;
 }
-body.lotusui30dojo div#communitiesDisplayArea div.communityIcon {
+body div#communitiesDisplayArea div.communityIcon {
     position: relative;
 }
-body.lotusui30dojo div#communitiesDisplayArea img.communityImg {
+body div#communitiesDisplayArea img.communityImg {
     width: 100%;
     box-shadow: 5px 5px 5px #ddd;
 }
-body.lotusui30dojo div#communitiesDisplayArea div.communityTitle {
+body div#communitiesDisplayArea div.communityTitle {
     position: absolute;
     bottom: 0;
     color: white;
