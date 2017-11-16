@@ -340,6 +340,7 @@ body #lotusColRight div#communityDisplayArea div.communityTitle {
     padding: 10px;
     font-weight: 400;
     background: rgba(0,0,0,0.5);
+    text-align: center;
 }
 body #lotusColRight div.communityIcon:hover .communityTitle {
     opacity: 1; 
