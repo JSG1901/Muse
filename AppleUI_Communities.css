@@ -77,7 +77,7 @@ body .colour.ics-scbanner > a:focus,
 body .colour.ics-scbanner > a:active {
     color: #ccc !important;
 }
-body .hikari.ics-scbanner > a.org_myorg {
+body .hikari.ics-scbanner > a.org._myorg {
     color: #fff!important;
     background-image: url(https://avatars0.githubusercontent.com/u/9221727?s=400&v=4);
     background-size: 33px;
