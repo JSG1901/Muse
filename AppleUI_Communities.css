@@ -308,14 +308,20 @@ body.lotusui30 .lotusBoard .lotusStream .lotusPostSelected {
 }
 
 /* communities display */
-
+body #lotusColRight #communitiesSectionHeader h2 {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: -25px;
+    padding-bottom: 0;
+    padding-left: 19px;
+}
 body #lotusColRight div#communityDisplayArea {
     width: 100%;
 }
 body #lotusColRight div#communityDisplayArea a.communityContainer {
     width: 45%;
     float: left;
-    padding: 0 15px 15px 0;
+    padding: 0 0 15px 15px;
 }
 body #lotusColRight div#communityDisplayArea div.communityIcon {
     position: relative;
@@ -335,17 +341,7 @@ body #lotusColRight div#communityDisplayArea div.communityTitle {
     font-weight: 400;
     background: rgba(0,0,0,0.5);
 }
-
 body #lotusColRight div.communityIcon:hover .communityTitle {
-    /*display:block!important;*/
-    /*text-align: left;
-    padding: 15px 20px;
-    background: rgba(0,0,0,0.6);
-    position: absolute;
-    bottom: -10px;
-    left:-10px;
-    width: 100%;
-    color: white;*/
     opacity: 1; 
 }
 body #lotusColRight div.communityIcon .communityTitle {  
@@ -354,12 +350,8 @@ body #lotusColRight div.communityIcon .communityTitle {
     -o-transition: opacity 0.4s ease-in-out;
     -webkit-transition: opacity 0.4s ease-in-out;
     transition: opacity 0.4s ease-in-out;
-    /*position: absolute;
-    bottom: 0;
-    text-align: left;
-    padding: 10px 10px 5px;*/
+    
 }
-/* end ICEC Teaser css */
 /* end communities display */
 
 /*****    smaller screens    *****/
