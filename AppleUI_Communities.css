@@ -288,7 +288,8 @@ body.lotusui30 .lotusFlyout .lotusFlyoutHeader .flyoutTitleContainer td.flyoutTi
 }
 body.lotusui30dojo a, 
 body.lotusui30dojo a:visited {
-    color: #999;
+    /* not just the flyout */
+    color: #366bb2;
 }
 /* end flyout-popup colors */
 
