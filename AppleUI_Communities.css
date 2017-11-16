@@ -306,6 +306,26 @@ div[dojoattachpoint="showMoreText"]{
 body.lotusui30 .lotusBoard .lotusStream .lotusPostSelected {
     background-color: #f9f9f9;
 }
+/* communities display */
+div#communitiesDisplayArea {
+    width: 100%;
+}
+div#communitiesDisplayArea a {
+    float:left;
+}
+div#communitiesDisplayArea div.communityIcon {
+    width:45%;
+    padding-right: 10px;
+    display:inline-block;
+}
+div#communitiesDisplayArea img.communityImg {
+    
+}
+div#communitiesDisplayArea div.communityTitle {
+    
+}
+/* end communities display */
+
 /*****    smaller screens    *****/
 @media screen and (max-width: 1024px) {
     
