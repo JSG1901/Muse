@@ -341,7 +341,7 @@ body #lotusColRight div#communityDisplayArea div.communityTitle {
     font-weight: 400;
     background: rgba(0,0,0,0.5);
     text-align: center;
-    line-height: 1.1;
+    line-height: 1.25;
 }
 body #lotusColRight div.communityIcon:hover .communityTitle {
     opacity: 1; 
