@@ -80,9 +80,9 @@ body .colour.ics-scbanner > a:active {
 body .hikari.ics-scbanner > a.org._myorg {
     color: #fff!important;
     background-image: url(https://avatars0.githubusercontent.com/u/9221727?s=400&v=4);
-    background-size: 33px;
+    background-size: 30px;
     background-repeat: no-repeat;
-    background-position: 10px 2px;
+    background-position: 15px 3px;
 }
 body .hikari.ics-scbanner > a:active, 
 body .gen4.ics-scbanner > a:active, 
