@@ -1,0 +1,23 @@
+{
+  "extensions": [
+    {
+      "payload": {
+        "match": {
+          "user-name":"Frank Adams"
+        },
+        "include-files": [
+          "getCommunities/getCommunities.user.js"
+        ]
+      },
+      "name": "Get Communities Extension",
+      "type": "com.ibm.customizer.ui",
+	  "path":"homepage"
+    }
+  ],
+  "name": "Get Communities Customization",
+  "description": "Get Communities Customization",
+  "services": [
+    "Customizer"
+  ],
+  "title": "Get Communities Customization"
+}
