@@ -4,5 +4,5 @@ function getMoreCommunities(startNum) {
 }
 function temp() {
     // nothing here yet
-    
+    alert('this is temp()');
 }
