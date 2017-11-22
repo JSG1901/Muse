@@ -366,12 +366,20 @@ body #lotusColRight div.communityIcon .communityTitle {
 }
 body.lotusui30 button.communityShowHide {
     border: none;
-    color: #666;
-    margin-right: 22px;
+    color: #999;
+    margin-right: 28px;
     margin-top: -10px;
     float: right;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 100;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius:0;
+    border-bottom:1pt solid transparent;
+}
+body.lotusui30 button.communityShowHide:hover {
+    color: #444;
+    border-bottom: 1pt solid #ddd;
 }
 /* end communities display */
 /* files display */
