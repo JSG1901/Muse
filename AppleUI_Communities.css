@@ -383,13 +383,16 @@ body.lotusui30 button.fileShowHide:hover {
     color: #444;
     border-bottom: 1pt solid #ddd;
 }
-body.lotusui30 #communities1,
-body.lotusui30 #communities2,
-body.lotusui30 #files1,
-body.lotusui30 #files2 {
-    padding: 5px 0;
+body.lotusui30 #communities1 .lotusSectionFooter .lotusPaging, 
+body.lotusui30 #communities2 .lotusSectionFooter .lotusPaging, 
+body.lotusui30 #files1 .lotusSectionFooter .lotusPaging, 
+body.lotusui30 #files2 .lotusSectionFooter .lotusPaging {
+    padding: 5px;
     border-top: 1px solid #ced2d4;
     font-size: 13px;
+    position: relative;
+    margin-left: 20px;
+    margin-right: 25px;
 }
 
 /* end communities display */
