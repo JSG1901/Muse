@@ -367,9 +367,16 @@ body #lotusColRight div#filesDisplayArea a.fileContainer {
     width: 30%;
     font-size: .8em;
     color: #444;
+    padding: 0 5px 10px 0;
+    overflow:hidden;
+    text-align:center;  
+}
+body #lotusColRight div#filesDisplayArea .fileTitle {
+    overflow: hidden;
+    padding: 0 5px;
 }
 body #lotusColRight div#filesDisplayArea .lastUpdated {
-    
+    font-size:9px
 }
 /* end file display */
 
