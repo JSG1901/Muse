@@ -383,6 +383,15 @@ body.lotusui30 button.fileShowHide:hover {
     color: #444;
     border-bottom: 1pt solid #ddd;
 }
+body.lotusui30 #communities1,
+body.lotusui30 #communities2,
+body.lotusui30 #files1,
+body.lotusui30 #files2 {
+    padding: 5px 0;
+    border-top: 1px solid #ced2d4;
+    font-size: 13px;
+}
+
 /* end communities display */
 /* files display */
 body #lotusColRight div#filesDisplayArea a.fileContainer {
