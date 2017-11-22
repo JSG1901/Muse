@@ -315,13 +315,16 @@ body.lotusui30 .lotusBoard .lotusStream .lotusPostSelected {
 }
 
 /* communities display */
-body #lotusColRight #communitiesSectionHeader h2.
+body #lotusColRight #communitiesSectionHeader h2,
 body #lotusColRight #filesSectionHeader h2 {
     font-size: 16px;
     font-weight: 300;
     margin-bottom: -23px;
     padding-bottom: 0;
     padding-left: 19px;
+}
+body #lotusColRight #filesSectionHeader h2 {
+    padding-top:20px;   
 }
 body #lotusColRight div#communityDisplayArea {
     width: 100%;
