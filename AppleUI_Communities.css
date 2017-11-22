@@ -362,13 +362,13 @@ body #lotusColRight div.communityIcon .communityTitle {
 }
 /* end communities display */
 /* files display */
-body #lotuscolright div#filesDisplayArea a.fileContainer {
+body #lotusColRight div#filesDisplayArea a.fileContainer {
     float: left;
     width: 30%;
     font-size: .8em;
     color: #444;
 }
-body #lotuscolright div#filesDisplayArea .lastUpdated {
+body #lotusColRight div#filesDisplayArea .lastUpdated {
     
 }
 /* end file display */
