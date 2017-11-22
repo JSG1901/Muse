@@ -315,8 +315,7 @@ body.lotusui30 .lotusBoard .lotusStream .lotusPostSelected {
 }
 
 /* communities display */
-body #lotusColRight #communitiesSectionHeader h2,
-body #lotusColRight #filesSectionHeader h2{
+body #lotusColRight #communitiesSectionHeader h2 {
     font-size: 16px;
     font-weight: 300;
     margin-bottom: -23px;
@@ -360,11 +359,21 @@ body #lotusColRight div.communityIcon .communityTitle {
     -o-transition: opacity 0.4s ease-in-out;
     -webkit-transition: opacity 0.4s ease-in-out;
     transition: opacity 0.4s ease-in-out;
-    
 }
 /* end communities display */
+/* files display */
+body #lotuscolright div#filesDisplayArea a.fileContainer {
+    float: left;
+    width: 30%;
+    font-size: .8em;
+    color: #444;
+}
+body #lotuscolright div#filesDisplayArea .lastUpdated {
+    
+}
+/* end file display */
 
-/*****    smaller screens    *****/
+/****    smaller screens    ****/
 @media screen and (max-width: 1024px) {
     
 }
