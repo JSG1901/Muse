@@ -364,7 +364,8 @@ body #lotusColRight div.communityIcon .communityTitle {
     -webkit-transition: opacity 0.4s ease-in-out;
     transition: opacity 0.4s ease-in-out;
 }
-body.lotusui30 button.communityShowHide {
+body.lotusui30 button.communityShowHide,
+body.lotusui30 button.fileShowHide {
     border: none;
     color: #999;
     margin-right: 28px;
@@ -377,7 +378,8 @@ body.lotusui30 button.communityShowHide {
     border-radius:0;
     border-bottom:1pt solid transparent;
 }
-body.lotusui30 button.communityShowHide:hover {
+body.lotusui30 button.communityShowHide:hover,
+body.lotusui30 button.fileShowHide:hover {
     color: #444;
     border-bottom: 1pt solid #ddd;
 }
@@ -390,14 +392,16 @@ body #lotusColRight div#filesDisplayArea a.fileContainer {
     color: #444;
     padding: 0 5px 10px 0;
     overflow:hidden;
-    text-align:center;  
+    text-align:center;
+    padding-bottom: 20px; 
 }
 body #lotusColRight div#filesDisplayArea .fileTitle {
     overflow: hidden;
     padding: 0 5px;
 }
 body #lotusColRight div#filesDisplayArea .lastUpdated {
-    font-size:9px
+    font-size: 9px;
+    color: #999;
 }
 /* end file display */
 
