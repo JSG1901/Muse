@@ -364,6 +364,15 @@ body #lotusColRight div.communityIcon .communityTitle {
     -webkit-transition: opacity 0.4s ease-in-out;
     transition: opacity 0.4s ease-in-out;
 }
+body.lotusui30 button.communityShowHide {
+    border: none;
+    color: #666;
+    margin-right: 22px;
+    margin-top: -10px;
+    float: right;
+    font-size: 12px;
+    font-weight: 100;
+}
 /* end communities display */
 /* files display */
 body #lotusColRight div#filesDisplayArea a.fileContainer {
