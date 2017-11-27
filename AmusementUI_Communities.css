@@ -7,7 +7,8 @@ html body.lotusui30_body {
     background-attachment: fixed;
     background-size: cover;
 }
-html body.lotusui30_body iframe body {
+html body.lotusui30_body.lconnShareboxCke {
+    /* what do you want to share? box */
     background-image: none;
 }
 
