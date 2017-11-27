@@ -3,6 +3,7 @@
  
 html body.lotusui30_body {
     font-family: "Helvetica","Helvetica Neue", Roboto, "Arial",sans-serif;
+    background: url(https://raw.githubusercontent.com/JSG1901/Muse/master/SpinningWheel_2000.jpg) no-repeat;
 }
 
 body.lotusui30_body {
@@ -26,14 +27,15 @@ body.lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusPostConten
 body.lotusui30 .lotusMenu li a, 
 body.lotusui30 .lotusMenu li a:visited {
     font-size: 16px;
-    font-weight: 300;
-    color: #666;
+    font-weight: 500;
+    color: #fff;
 }
 body.lotusui30 .lotusBoard .lotusStream #activityStreamMain.lotusWidgetBody .activityStreamNewsItemContainer.lotusPost {
     border-bottom: 1pt solid #eee;
 }
 body.lotusui30 .lotusBoard .lotusStream #activityStreamMain.lotusWidgetBody .lotusPost.lotusPostHover {
-    color: #333;
+    color: black;
+    font-weight:300;
 }
 
 body #activityStreamHeader.lotusHeader {
@@ -112,20 +114,30 @@ body.lotusui30 .lotusTitleBar,
 body .lotusui30_layout .lotusColLeft,
 .lotusui30_layout .lotusColLeft:after {
     /* left column background (also see below) */
-    background: #f9f9fb; 
+    background: transparent; 
 }
 body .lotusui30_layout .lotusColLeft:after {
     /* main area of left column background */
-    border-left: 1000px solid #f9f9fb;
-    background: #f9f9fb;
+    border-left: 1000px solid rgba(0,0,0,0.05);
+    background: rgba(0,0,0,0.05);
     width: 1px;
-    border-right: 240px solid #f9f9fb;
+    border-right: 240px solid rgba(0,0,0,0.05);
     content: "";
     margin-left: -1001px;
     position: fixed;
     bottom: 0;
     height: 100%;
     z-index: -2;
+}
+body.lotusui30 .lotusBoard .lotusStream {
+    background: rgba(0,0,0,0.15);
+    padding: 20px;
+}
+body.lotusui30 .lotusBoard .lotusStream ul {
+    background: transparent;
+}
+body .lotusui30_layout .lotusMain .lotusContent:before {
+    background: transparent;
 }
 body.lotusui30 .lotusBoard ul.lotusCommentList li.lotusCommentItem {
     background-color: rgba(255,255,255,0.5);
@@ -189,8 +201,8 @@ body.lotusui30 .lotusContent .lotusStream #activityStreamMain.lotusWidgetBody .l
     color: #444;
 }
 body.lotusui30 .lotusBoard .lotusStream #activityStreamMain.lotusWidgetBody .activityStreamNewsItemContainer.lotusPost.lotusPostHover {
-    background-color: #fbfbfb;
-    border: 5pt solid #f9f9f9;
+    background-color: rgba(255,255,255,0.5);
+    border: 5pt solid rgba(255,255,255,0.2);
     padding: 58px 18px 55px;
 }
 body .ics-scbanner > a:hover::after, .ics-scbanner > button:hover::after, 
