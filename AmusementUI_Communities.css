@@ -5,6 +5,7 @@ html body.lotusui30_body {
     font-family: "Helvetica","Helvetica Neue", Roboto, "Arial",sans-serif;
     background: url(https://raw.githubusercontent.com/JSG1901/Muse/master/SpinningWheel_2000.jpg) no-repeat;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 body.lotusui30_body {
