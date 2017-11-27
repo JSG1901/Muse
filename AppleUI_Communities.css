@@ -189,12 +189,9 @@ body.lotusui30 .lotusContent .lotusStream #activityStreamMain.lotusWidgetBody .l
     color: #444;
 }
 body.lotusui30 .lotusBoard .lotusStream #activityStreamMain.lotusWidgetBody .activityStreamNewsItemContainer.lotusPost.lotusPostHover {
-    background-color: #fff;
-    border: 5pt solid #b5d7fc;
+    background-color: #fbfbfb;
+    border: 5pt solid #f9f9f9;
     padding: 58px 18px 55px;
-    background-image: url(https://rawgit.com/JSG1901/Muse/master/Clouds_50_BG.png);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 body .ics-scbanner > a:hover::after, .ics-scbanner > button:hover::after, 
 body .ics-scbanner > .navmenu:hover::after {
