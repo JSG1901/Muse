@@ -109,7 +109,7 @@ body .colour.ics-scbanner > a.selected {
     color: #ddd!important;
     font-weight:700;
 }
-.ics-scbanner > .selected::after {
+body .ics-scbanner > .selected::after {
     border-bottom-color: rgba(249,167,72,0.9);
 }
 body .bhcNotice {
