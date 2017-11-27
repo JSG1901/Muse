@@ -278,7 +278,9 @@ body #hpUserPhoto a {
 body .lotusui30_layout .lotusMain .lotusContent {
     margin: 17px 0 40px 310px;
 }
-
+body .lotusui30_layout .lotusWidget_3columnsWithBannerTopMenuLayout .lotusMain .lotusContent {
+    margin-left: 0;
+}
 /* flyout/popup colors */
 body.lotusui30 .lotusFlyout .lotusFlyoutHeader {
     color: #fff;
