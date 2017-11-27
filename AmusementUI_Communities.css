@@ -4,6 +4,7 @@
 html body.lotusui30_body {
     font-family: "Helvetica","Helvetica Neue", Roboto, "Arial",sans-serif;
     background: url(https://raw.githubusercontent.com/JSG1901/Muse/master/SpinningWheel_2000.jpg) no-repeat;
+    background-attachment: fixed;
 }
 
 body.lotusui30_body {
@@ -29,6 +30,9 @@ body.lotusui30 .lotusMenu li a:visited {
     font-size: 16px;
     font-weight: 500;
     color: #fff;
+}
+body.lotusui30 .lotusMenu li a {
+    color: #777;
 }
 body.lotusui30 .lotusBoard .lotusStream #activityStreamMain.lotusWidgetBody .activityStreamNewsItemContainer.lotusPost {
     border-bottom: 1pt solid #eee;
@@ -140,7 +144,7 @@ body .lotusui30_layout .lotusMain .lotusContent:before {
     background: transparent;
 }
 body.lotusui30 .lotusBoard ul.lotusCommentList li.lotusCommentItem {
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.2);
     border-width: 0;
     border-color: #eee;
 }
@@ -350,7 +354,7 @@ body #lotusColRight div#communityDisplayArea div.communityIcon {
 }
 body #lotusColRight div#communityDisplayArea img.communityImg {
     width: 100%;
-    box-shadow: 5px 5px 5px #ddd;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
 }
 body #lotusColRight div#communityDisplayArea div.communityTitle {
     position: absolute;
@@ -399,7 +403,7 @@ body.lotusui30 #communities2 .lotusSectionFooter .lotusPaging,
 body.lotusui30 #files1 .lotusSectionFooter .lotusPaging, 
 body.lotusui30 #files2 .lotusSectionFooter .lotusPaging {
     padding: 5px;
-    border-top: 1px solid #ced2d4;
+    border-top: 1px solid rgba(255,255,255,0.4);
     font-size: 13px;
     position: relative;
     margin-left: 15px;
@@ -428,6 +432,15 @@ body #lotusColRight div#filesDisplayArea .lastUpdated {
 }
 /* end file display */
 
+body.lotusui30 .lotusPaging, 
+body.lotusui30 .lotusPaging div, 
+body.lotusui30 .lotusPaging input, 
+body.lotusui30 .lotusPaging ul li {
+    color: #eee;
+}
+.meta {
+    color: #eee;
+}
 /****    smaller screens    ****/
 @media screen and (max-width: 1024px) {
     
