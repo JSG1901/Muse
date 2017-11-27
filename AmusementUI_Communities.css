@@ -96,18 +96,21 @@ body .hikari.ics-scbanner > a:active,
 body .gen4.ics-scbanner > a:active, 
 body .colour.ics-scbanner > a, 
 body .colour.ics-scbanner > a:active {
-    color: #444!important;
+    color: rgba(249,167,72,0.9)!important;
 }
 body .hikari.ics-scbanner > a:hover, 
 body .gen4.ics-scbanner > a:hover, 
 body .colour.ics-scbanner > a:hover {
-    color: #444!important;
+    color: rgba(249,167,72,0.9)!important;
 }
 body .hikari.ics-scbanner > a.selected, 
 body .gen4.ics-scbanner  > a.selected, 
 body .colour.ics-scbanner > a.selected {
-    color: #444!important;
+    color: #ddd!important;
     font-weight:700;
+}
+.ics-scbanner > .selected::after {
+    border-bottom-color: rgba(249,167,72,0.9);
 }
 body .bhcNotice {
     display:none;
@@ -342,6 +345,7 @@ body #lotusColRight #filesSectionHeader h2 {
     margin-bottom: -23px;
     padding-bottom: 0;
     padding-left: 19px;
+    color: white;
 }
 body #lotusColRight #filesSectionHeader h2 {
     padding-top:20px;   
