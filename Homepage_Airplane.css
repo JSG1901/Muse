@@ -308,7 +308,7 @@ body.lotusui30 .lotusMenu li.lotusSelected a:visited {
     border-bottom: 1px solid transparent;
     border-top: 1px solid transparent;
 }
-body.lotusui30 .lotusMenu #myStreamView li.lotusSelected a#_myStream {
+body.lotusui30 .lotusMenu #myStreamView.lotusSelected a#_myStream {
     background: url(https://raw.githubusercontent.com/JSG1901/Muse/master/Jet_Go_Menu_Updates_ON.png) no-repeat;
     background-position: 10px 2px;
     color: transparent;
@@ -318,7 +318,7 @@ body.lotusui30 .lotusMenu #myStreamView a#_myStream {
     background-position: 15px 2px;
     color: transparent;
 }
-body.lotusui30 .lotusMenu #myStreamView li.lotusSelected a#_atMentions {
+body.lotusui30 .lotusMenu #myStreamView.lotusSelected a#_atMentions {
     background: url(https://raw.githubusercontent.com/JSG1901/Muse/master/Jet_Go_Menu_Mentions_ON.png) no-repeat;
     background-position: 10px 2px;
     color: transparent;
@@ -328,7 +328,7 @@ body.lotusui30 .lotusMenu #myStreamView a#_atMentions {
     background-position: 15px 2px;
     color: transparent;
 }
-body.lotusui30 .lotusMenu #myStreamView li.lotusSelected a#_myNotifications {
+body.lotusui30 .lotusMenu #myStreamView.lotusSelected a#_myNotifications {
     background: url(https://raw.githubusercontent.com/JSG1901/Muse/master/Jet_Go_Menu_Notifications_ON.png) no-repeat;
     background-position: 10px 2px;
     color: transparent;
@@ -338,7 +338,7 @@ body.lotusui30 .lotusMenu #myStreamView a#_myNotifications {
     background-position: 15px 2px;
     color: transparent;
 }
-body.lotusui30 .lotusMenu #myStreamView li.lotusSelected a#_actionRequired {
+body.lotusui30 .lotusMenu #myStreamView.lotusSelected a#_actionRequired {
     background: url(https://raw.githubusercontent.com/JSG1901/Muse/master/Jet_Go_Menu_ActionReqd_ON.png) no-repeat;
     background-position: 10px 2px;
     color: transparent;
@@ -348,7 +348,7 @@ body.lotusui30 .lotusMenu #myStreamView a#_actionRequired {
     background-position: 15px 2px;
     color: transparent;
 }
-body.lotusui30 .lotusMenu #myStreamView li.lotusSelected a#_saved {
+body.lotusui30 .lotusMenu #myStreamView.lotusSelected a#_saved {
     background: url(https://raw.githubusercontent.com/JSG1901/Muse/master/Jet_Go_Menu_Saved_ON.png) no-repeat;
     background-position: 10px 2px;
     color: transparent;
