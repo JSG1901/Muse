@@ -315,7 +315,7 @@ body.lotusui30 .lotusMenu #myStreamView.lotusSelected a#_myStream {
 }
 body.lotusui30 .lotusMenu #myStreamView a#_myStream {
     background: url(https://raw.githubusercontent.com/JSG1901/Muse/master/Jet_Go_Menu_Updates_OFF.png) no-repeat;
-    background-position: 15px 2px;
+    background-position: 14px 2px;
     color: transparent;
 }
 body.lotusui30 .lotusMenu #atMentionsView.lotusSelected a#_atMentions {
@@ -325,7 +325,7 @@ body.lotusui30 .lotusMenu #atMentionsView.lotusSelected a#_atMentions {
 }
 body.lotusui30 .lotusMenu #atMentionsView a#_atMentions {
     background: url(https://raw.githubusercontent.com/JSG1901/Muse/master/Jet_Go_Menu_Mentions_OFF.png) no-repeat;
-    background-position: 15px 2px;
+    background-position: 14px 2px;
     color: transparent;
 }
 body.lotusui30 .lotusMenu #myNotificationsView.lotusSelected a#_myNotifications {
@@ -335,7 +335,7 @@ body.lotusui30 .lotusMenu #myNotificationsView.lotusSelected a#_myNotifications 
 }
 body.lotusui30 .lotusMenu #myNotificationsView a#_myNotifications {
     background: url(https://raw.githubusercontent.com/JSG1901/Muse/master/Jet_Go_Menu_Notifications_OFF.png) no-repeat;
-    background-position: 15px 2px;
+    background-position: 14px 2px;
     color: transparent;
 }
 body.lotusui30 .lotusMenu #actionRequiredView.lotusSelected a#_actionRequired {
@@ -345,7 +345,7 @@ body.lotusui30 .lotusMenu #actionRequiredView.lotusSelected a#_actionRequired {
 }
 body.lotusui30 .lotusMenu #actionRequiredView a#_actionRequired {
     background: url(https://raw.githubusercontent.com/JSG1901/Muse/master/Jet_Go_Menu_ActionReqd_OFF.png) no-repeat;
-    background-position: 15px 2px;
+    background-position: 14px 2px;
     color: transparent;
 }
 body.lotusui30 .lotusMenu #savedView.lotusSelected a#_saved {
@@ -355,7 +355,7 @@ body.lotusui30 .lotusMenu #savedView.lotusSelected a#_saved {
 }
 body.lotusui30 .lotusMenu #savedView a#_saved {
     background: url(https://raw.githubusercontent.com/JSG1901/Muse/master/Jet_Go_Menu_Saved_OFF.png) no-repeat;
-    background-position: 15px 2px;
+    background-position: 14px 2px;
     color: transparent;
 }
 body.lotusui30 .lotusMenu .lotusUnreadBadge {
@@ -583,6 +583,17 @@ body.lotusui30 #homepageLeftNavigationMenuContainer {
     top: 100px;
     left: 10px;
 }
+body.lotusui30 .lotusMenu .lotusHeaderSelected, 
+body.lotusui30 .lotusMenu li.lotusSelected, 
+body.lotusui30 .lotusMenu li.lotusSelected:active, 
+body.lotusui30 .lotusMenu li.lotusSelected:focus, 
+body.lotusui30 .lotusMenu li.lotusSelected:hover, 
+body.lotusui30 .lotusMenu li.lotusSelected:visited {
+    margin: 0;
+}
+body.lotusui30 .lotusMenu ul {
+    margin: 25px 0 0 0;
+}
 body.lotusui30 #leftSideBGGraphic {
     height: 90%;
     width: 40vh;
@@ -597,14 +608,6 @@ body.lotusui30 #leftSideBGGraphic {
     -webkit-animation-delay: 3s;
     animation: slide 3s forwards;
     animation-delay: 3s;
-}
-body.lotusui30 .lotusMenu .lotusHeaderSelected, 
-body.lotusui30 .lotusMenu li.lotusSelected, 
-body.lotusui30 .lotusMenu li.lotusSelected:active, 
-body.lotusui30 .lotusMenu li.lotusSelected:focus, 
-body.lotusui30 .lotusMenu li.lotusSelected:hover, 
-body.lotusui30 .lotusMenu li.lotusSelected:visited {
-    margin: 0;
 }
 
 @-webkit-keyframes slide {
