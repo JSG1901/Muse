@@ -214,6 +214,7 @@ body .lotusui30_layout .lotusColLeft {
 }
 body .lotusui30_layout .lotusColRight {
     margin-left: 60px;
+    margin-top: 55px;
 }
 html html body .lotusWarningMsgs {
     font-size: 13px;
@@ -301,11 +302,15 @@ body.lotusui30 .lotusMenu li.lotusSelected a:active,
 body.lotusui30 .lotusMenu li.lotusSelected a:focus, 
 body.lotusui30 .lotusMenu li.lotusSelected a:hover, 
 body.lotusui30 .lotusMenu li.lotusSelected a:visited {
-    color: rgb(249,167,72);
+    color: transparent;
     text-decoration: none;
     background: 0 0;
     border-bottom: 1px solid transparent;
     border-top: 1px solid transparent;
+}
+body.lotusui30 .lotusMenu #myStreamView a#_myStream {
+    background: url(https://raw.githubusercontent.com/JSG1901/Muse/master/Jet_Go_Menu_Updates_ON.png) no-repeat;
+    background-position: 10px 2px;
 }
 body .lotusliveui, 
 body .lotusliveui30, 
@@ -531,9 +536,9 @@ body.lotusui30 #leftSideBGGraphic {
     background-position: -2vw 0;
     z-index: -2;
     -webkit-animation: slide 3s forwards;
-    -webkit-animation-delay: 5s;
+    -webkit-animation-delay: 3s;
     animation: slide 3s forwards;
-    animation-delay: 5s;
+    animation-delay: 3s;
 }
 
 @-webkit-keyframes slide {
