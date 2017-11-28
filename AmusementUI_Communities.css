@@ -3,11 +3,12 @@
  
 html body.lotusui30_body {
     font-family: "Helvetica","Helvetica Neue", Roboto, "Arial",sans-serif;
-    background: url(https://raw.githubusercontent.com/JSG1901/Muse/master/BeachSparklers.jpg) no-repeat;
+    background: url(https://raw.githubusercontent.com/JSG1901/Muse/master/JetLanding.jpg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
-html body.lotusui30_body.lconnShareboxCke {
+html body.lotusui30_body.lconnShareboxCke,
+html body.cke_editable.lconnInlineCommentCke {
     /* what do you want to share? box */
     background-image: none;
 }
@@ -139,7 +140,8 @@ body .lotusui30_layout .lotusColLeft:after {
     z-index: -2;
 }
 body.lotusui30 .lotusBoard .lotusStream {
-    background: rgba(249,167,72,.45);
+    background: rgba(33,31,66,.35);
+    border-radius: 10px;
     padding: 20px;
 }
 body.lotusui30 .lotusBoard .lotusStream ul {
@@ -149,9 +151,11 @@ body .lotusui30_layout .lotusMain .lotusContent:before {
     background: transparent;
 }
 body.lotusui30 .lotusBoard ul.lotusCommentList li.lotusCommentItem {
-    background-color: rgba(255,255,255,0.2);
-    border-width: 0;
-    border-color: #eee;
+    background-color: rgba(0,0,0,0.1);
+    border-width: 3px;
+    border-color: rgba(0,0,0,0.05);
+    margin: 10px 0 8px;
+    border-radius: 10px;
 }
 body.lotusui30 .lotusBoard ul.lotusCommentList li.lotusCommentItem:first-child {
     background-color: #f3f3f3;
@@ -213,8 +217,8 @@ body.lotusui30 .lotusContent .lotusStream #activityStreamMain.lotusWidgetBody .l
     color: #444;
 }
 body.lotusui30 .lotusBoard .lotusStream #activityStreamMain.lotusWidgetBody .activityStreamNewsItemContainer.lotusPost.lotusPostHover {
-    background-color: rgba(255,255,255,0.5);
-    border: 5pt solid rgba(255,255,255,0.2);
+    background-color: rgba(0,0,0,0.1);
+    border: 5pt solid rgba(255,255,255,0.1);
     padding: 58px 18px 55px;
 }
 body .ics-scbanner > a:hover::after, .ics-scbanner > button:hover::after, 
