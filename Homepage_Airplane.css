@@ -508,9 +508,9 @@ body.lotusui30 #leftSideBGGraphic {
     background-size: contain;
     background-position: -2vw 0;
     z-index: 0;
-    -webkit-animation: slide 2s forwards;
+    -webkit-animation: slide 3s forwards;
     -webkit-animation-delay: 5s;
-    animation: slide 2s forwards;
+    animation: slide 3s forwards;
     animation-delay: 5s;
 }
 
