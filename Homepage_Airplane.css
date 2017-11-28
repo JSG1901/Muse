@@ -56,7 +56,7 @@ body.lotusui30 .lotusMenu li a:visited {
     color: #fff;
 }
 body.lotusui30 .lotusBoard .lotusStream #activityStreamMain.lotusWidgetBody .activityStreamNewsItemContainer.lotusPost {
-    border-bottom: 1pt solid #eee;
+    border-bottom: 1pt solid rgba(255,255,255,0.1);
 }
 body.lotusui30 .lotusBoard .lotusStream #activityStreamMain.lotusWidgetBody .lotusPost.lotusPostHover {
     color: white;
@@ -194,7 +194,7 @@ body.lotusui30 .lotusBoard ul.lotusCommentList li.lotusCommentItem:first-child {
     /* background-color: #f3f3f3; */
 }
 body.lotusui30 .lotusBoard .lotusPostHover ul.lotusCommentList li.lotusCommentItem:first-child {
-    background-color: rgba(255,255,255,0.7);
+    background-color: rgba(255,255,255,0.2);
 }
 body.lotusui30 .lotusBoard ul.lotusCommentList > li {
     border-color: transparent;
@@ -251,7 +251,7 @@ body.lotusui30 .lotusContent .lotusStream #activityStreamMain.lotusWidgetBody .l
     color: rgb(249,167,72);
 }
 body.lotusui30 .lotusBoard .lotusStream #activityStreamMain.lotusWidgetBody .activityStreamNewsItemContainer.lotusPost.lotusPostHover {
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0,0,0,0.4);
     border: 5pt solid rgba(255,255,255,0.1);
     padding: 58px 18px 55px;
 }
@@ -602,7 +602,7 @@ body.lotusui30 #leftSideBGGraphic {
     bottom: -120vh;
     left: 0;
     background-size: contain;
-    background-position: -2vw 0;
+    background-position: 0 0;
     z-index: -2;
     -webkit-animation: slide 3s forwards;
     -webkit-animation-delay: 3s;
@@ -625,7 +625,12 @@ body.lotusui30 .lotusMenu li a:hover,
 body.lotusui30 .lotusMenu li:focus a {
     background-color: rgba(0,0,0,0.2);
 }
-
+body.lotusui30 .lotusStream .filterArea .icStream-labelInner {
+    color: #ccc;
+}
+body.lotusui30 .lotusStream .filterAreaInner {
+    border-color: rgba(255,255,255,0.2);
+}
 
 /****    smaller screens    ****/
 @media screen and (max-width: 1024px) {
