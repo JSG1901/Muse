@@ -173,7 +173,7 @@ body .lotusui30_layout .lotusColLeft:after {
     z-index: -2;
 }
 body.lotusui30 .lotusBoard .lotusStream {
-    background: rgba(33,31,66,.35);
+    background: rgba(33,31,66,.55);
     border-radius: 10px;
     padding: 20px;
 }
@@ -550,6 +550,13 @@ body.lotusui30 #leftSideBGGraphic {
     0% {bottom: -120vh; }
     100% { bottom: -25vh; }
 }
+
+body.lotusui30 .lotusMenu li a:focus, 
+body.lotusui30 .lotusMenu li a:hover, 
+body.lotusui30 .lotusMenu li:focus a {
+    background-color: rgba(0,0,0,0.2);
+}
+
 
 /****    smaller screens    ****/
 @media screen and (max-width: 1024px) {
