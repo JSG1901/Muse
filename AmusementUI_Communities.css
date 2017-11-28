@@ -18,7 +18,7 @@ body.lotusui30_body {
     
 }
 body.lotusui30_body .ics-scbanner {
-    background: rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.3);
     color: #ddd;
     font-size: 14px;
 }
@@ -118,7 +118,7 @@ body .bhcNotice {
 }
 body.lotusui30 .ics-scbanner.isfixed {
     /* header bottom shadow here */
-    box-shadow: 0 5px 10px rgba(0,0,0,0.4);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
 }
 body.lotusui30 .lotusTitleBar, 
 body .lotusui30_layout .lotusColLeft,
@@ -128,10 +128,10 @@ body .lotusui30_layout .lotusColLeft,
 }
 body .lotusui30_layout .lotusColLeft:after {
     /* main area of left column background */
-    border-left: 1000px solid rgba(0,0,0,0.05);
-    background: rgba(0,0,0,0.05);
+    border-left: 1000px solid transparent;
+    background: rgba(0,0,0,0.1);
     width: 1px;
-    border-right: 240px solid rgba(0,0,0,0.05);
+    border-right: 240px solid transparent;
     content: "";
     margin-left: -1001px;
     position: fixed;
@@ -323,7 +323,7 @@ body.lotusui30 .lotusFlyout .lotusFlyoutHeader .flyoutTitleContainer td.flyoutTi
 body.lotusui30dojo a, 
 body.lotusui30dojo a:visited {
     /* not just the flyout */
-    color: #366bb2;
+    color: #444;
 }
 /* end flyout-popup colors */
 
