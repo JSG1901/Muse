@@ -358,6 +358,18 @@ body.lotusui30 .lotusMenu #savedView a#_saved {
     background-position: 15px 2px;
     color: transparent;
 }
+body.lotusui30 .lotusMenu .lotusUnreadBadge {
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: -2px;
+    padding: 0 3px;
+    background-color: transparent;
+    font-size: 18px;
+    text-shadow: none;
+    color: #5aaab9;
+    font-weight: 300;
+    font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+}
 body .lotusliveui, 
 body .lotusliveui30, 
 body.scloud3 {
