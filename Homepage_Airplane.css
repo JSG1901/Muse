@@ -13,8 +13,9 @@ html body.lotusui30_body #clientCoLogo   {
     width: 15%;
     height: 100px;
     position: fixed;
-    bottom: 100px;
+    bottom: 0;
     left: 2%;
+    z-index:10;
 }
 html body.lotusui30_body.lconnShareboxCke,
 html body.cke_editable.lconnInlineCommentCke {
@@ -279,7 +280,7 @@ body.lotusui30 .lotusMenu li.lotusSelected a:active,
 body.lotusui30 .lotusMenu li.lotusSelected a:focus, 
 body.lotusui30 .lotusMenu li.lotusSelected a:hover, 
 body.lotusui30 .lotusMenu li.lotusSelected a:visited {
-    color: #444;
+    color: rgb(249,167,72);
     text-decoration: none;
     background: 0 0;
     border-bottom: 1px solid transparent;
@@ -482,8 +483,22 @@ body.lotusui30 .lotusMeta {
 }
 body.lotusui30 #homepageLeftNavigationMenuContainer {
     position: fixed;
-    top: 300px;
+    top: 100px;
+    left: 10px;
 }
+body.lotusui30 #leftSideBGGraphic {
+    height: 90%;
+    width: 35vw;
+    background: url(https://raw.githubusercontent.com/JSG1901/Muse/master/Airliner_NoBG.png) no-repeat;
+    position: fixed;
+    bottom: -15vw;
+    left: 0;
+    background-size: contain;
+    background-position: -2vw 0;
+    z-index: 0;
+}
+
+
 /****    smaller screens    ****/
 @media screen and (max-width: 1024px) {
     
