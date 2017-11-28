@@ -598,6 +598,14 @@ body.lotusui30 #leftSideBGGraphic {
     animation: slide 3s forwards;
     animation-delay: 3s;
 }
+body.lotusui30 .lotusMenu .lotusHeaderSelected, 
+body.lotusui30 .lotusMenu li.lotusSelected, 
+body.lotusui30 .lotusMenu li.lotusSelected:active, 
+body.lotusui30 .lotusMenu li.lotusSelected:focus, 
+body.lotusui30 .lotusMenu li.lotusSelected:hover, 
+body.lotusui30 .lotusMenu li.lotusSelected:visited {
+    margin: 0;
+}
 
 @-webkit-keyframes slide {
     0% {bottom: -120vh; }
