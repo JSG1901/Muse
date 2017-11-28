@@ -38,6 +38,18 @@ body.lotusui30_body .ics-scbanner:hover {
 body.lotusui30_body .ics-scbanner .selected {
     color: #666;
 }
+body.lotusui30 .lotusMenu {
+    width: 100%;
+    margin: 0 0 15px;
+    padding: 15px;
+    color: #292929;
+    font-size: 1.08333333333333em;
+    background-color: rgba(0,0,0,0.2);
+    border-width: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 5px;
+}
 body.lotusui30 .lotusPostContent .lotusPostAction .vcard,
 body.lotusui30 .lotusBoard .lotusStream #activityStreamMain.lotusWidgetBody .lotusPost,
 body.lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusPostContent .fileMeta .inlineSepList li,
@@ -488,16 +500,27 @@ body.lotusui30 #homepageLeftNavigationMenuContainer {
 }
 body.lotusui30 #leftSideBGGraphic {
     height: 90%;
-    width: 35vw;
+    width: 40vh;
     background: url(https://raw.githubusercontent.com/JSG1901/Muse/master/Airliner_NoBG.png) no-repeat;
     position: fixed;
-    bottom: -15vw;
+    bottom: -25vh;
     left: 0;
     background-size: contain;
     background-position: -2vw 0;
     z-index: 0;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
 }
 
+@-webkit-keyframes slide {
+    100% { bottom: 0; }
+}
+
+@keyframes slide {
+    100% { bottom: 0; }
+}
 
 /****    smaller screens    ****/
 @media screen and (max-width: 1024px) {
