@@ -503,15 +503,15 @@ body.lotusui30 #leftSideBGGraphic {
     width: 40vh;
     background: url(https://raw.githubusercontent.com/JSG1901/Muse/master/Airliner_NoBG.png) no-repeat;
     position: fixed;
-    bottom: -25vh;
+    bottom: -120vh;
     left: 0;
     background-size: contain;
     background-position: -2vw 0;
     z-index: 0;
-    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation: slide 2s normal;
     -webkit-animation-delay: 7s;
-    animation: slide 0.5s forwards;
-    animation-delay: 2s;
+    animation: slide 2s normal;
+    animation-delay: 7s;
 }
 
 @-webkit-keyframes slide {
