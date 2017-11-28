@@ -67,7 +67,8 @@ body #activityStreamHeader.lotusHeader {
     font-size: 16px;
     font-weight: 300;
     background: url(https://raw.githubusercontent.com/JSG1901/Muse/master/JetGo_WhatsNew_Handwritten.png) no-repeat;
-    height: 50px;
+    height: 60px;
+    margin: -5px 0 5px;
 }
 body.lotusui30 .lotusColRight .lotusSection2 .lotusHeading, .lotusui30 .lotusColRight .lotusSection2 .lotusHeading2 {
     font-size: 16px;
@@ -178,7 +179,7 @@ body.lotusui30 .lotusBoard ul.lotusCommentList li.lotusCommentItem {
     border-radius: 10px;
 }
 body.lotusui30 .lotusBoard ul.lotusCommentList li.lotusCommentItem:first-child {
-    background-color: #f3f3f3;
+    /* background-color: #f3f3f3; */
 }
 body.lotusui30 .lotusBoard .lotusPostHover ul.lotusCommentList li.lotusCommentItem:first-child {
     background-color: rgba(255,255,255,0.7);
@@ -503,7 +504,7 @@ body.lotusui30 #leftSideBGGraphic {
     left: 0;
     background-size: contain;
     background-position: -2vw 0;
-    z-index: 0;
+    z-index: -2;
     -webkit-animation: slide 3s forwards;
     -webkit-animation-delay: 5s;
     animation: slide 3s forwards;
