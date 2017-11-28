@@ -57,6 +57,8 @@ body.lotusui30 .lotusBoard .lotusStream #activityStreamMain.lotusWidgetBody .lot
 body #activityStreamHeader.lotusHeader {
     font-size: 16px;
     font-weight: 300;
+    background: url(https://raw.githubusercontent.com/JSG1901/Muse/master/JetGo_WhatsNew.png) no-repeat;
+    height: 50px;
 }
 body.lotusui30 .lotusColRight .lotusSection2 .lotusHeading, .lotusui30 .lotusColRight .lotusSection2 .lotusHeading2 {
     font-size: 16px;
@@ -467,6 +469,7 @@ body .lotusHeader .shareSome-desc .shareSome-title,
 body .lotusHeader .shareSome-desc .shareSome-title .shareSome-titleSep,
 body .lotusHeader .shareSome-desc {
     color: #fff;
+    display:none;
 }
 body.lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .lotusInlinelist.lotusActions a, 
 body.lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .lotusPost .lotusInlinelist a,
@@ -476,6 +479,10 @@ body.lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody abbr.timeago,
 body.lotusui30 .lotusMeta {
     color: rgba(255,255,255,0.5);
     font-weight: 400;
+}
+body.lotusui30 #homepageLeftNavigationMenuContainer {
+    position: fixed;
+    top: 300px;
 }
 /****    smaller screens    ****/
 @media screen and (max-width: 1024px) {
