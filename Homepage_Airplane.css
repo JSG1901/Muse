@@ -12,7 +12,7 @@ html body.lotusui30_body #clientCoLogo   {
     background-attachment: fixed;
     background-size: contain;
     width: 250px;
-    height:70px;
+    height:65px;
 }
 html body.lotusui30_body.lconnShareboxCke,
 html body.cke_editable.lconnInlineCommentCke {
