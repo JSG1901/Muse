@@ -71,7 +71,7 @@ body #activityStreamHeader.lotusHeader {
     font-size: 16px;
     font-weight: 300;
     background: url(https://raw.githubusercontent.com/JSG1901/Muse/master/JetGo_WhatsNew.png) no-repeat;
-    height: 51px;
+    height: 50px;
 }
 body.lotusui30 .lotusColRight .lotusSection2 .lotusHeading, .lotusui30 .lotusColRight .lotusSection2 .lotusHeading2 {
     font-size: 16px;
