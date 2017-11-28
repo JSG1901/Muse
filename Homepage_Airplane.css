@@ -44,11 +44,7 @@ body.lotusui30 .lotusMenu {
     padding: 15px;
     color: #292929;
     font-size: 1.08333333333333em;
-    background-color: rgba(0,0,0,0.2);
     border-width: 0;
-    -moz-border-radius: 0;
-    -webkit-border-radius: 0;
-    border-radius: 5px;
 }
 body.lotusui30 .lotusPostContent .lotusPostAction .vcard,
 body.lotusui30 .lotusBoard .lotusStream #activityStreamMain.lotusWidgetBody .lotusPost,
@@ -353,8 +349,8 @@ body.lotusui30dojo a:visited {
 
 .search-history-view-ui .lotusui30 .icSearchPaneButton {
     top: 20px;
-    background-color: #999;
-    outline: #999 solid 1px;
+    background-color: rgba(0,0,0,0.2);
+    outline: rgba(0,0,0,0.2) solid 1px;
 }
 div[dojoattachpoint="showMoreText"]{
     font-size: 13px;
