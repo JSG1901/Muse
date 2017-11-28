@@ -250,6 +250,37 @@ body.lotusui30 .lotusContent .lotusStream #activityStreamMain.lotusWidgetBody .l
 body.lotusui30 .lotusContent .lotusStream #activityStreamMain.lotusWidgetBody .lotusPagingTop.lotusPaging ul.lotusInlinelist li a.filterSelected {
     color: rgb(249,167,72);
 }
+body.lotusui30 .lotusContent .lotusStream #activityStreamMain.lotusWidgetBody .lotusPagingTop.lotusPaging ul.lotusInlinelist li a#imFollowing {
+    background: url(https://raw.githubusercontent.com/JSG1901/Muse/master/JetGo_CenterMenu_Following_OFF.png) no-repeat;
+    background-position: 20px 11px;
+    color: transparent;
+}
+body.lotusui30 .lotusContent .lotusStream #activityStreamMain.lotusWidgetBody .lotusPagingTop.lotusPaging ul.lotusInlinelist li a#imFollowing.filterSelected {
+    background: url(https://raw.githubusercontent.com/JSG1901/Muse/master/JetGo_CenterMenu_Following_ON.png) no-repeat;
+    background-position: 20px 11px;
+    color: transparent;
+}
+body.lotusui30 .lotusContent .lotusStream #activityStreamMain.lotusWidgetBody .lotusPagingTop.lotusPaging ul.lotusInlinelist li a#statusUpdates {
+    background: url(https://raw.githubusercontent.com/JSG1901/Muse/master/JetGo_CenterMenu_Status_OFF.png) no-repeat;
+    background-position: 20px 11px;
+    color: transparent;
+}
+body.lotusui30 .lotusContent .lotusStream #activityStreamMain.lotusWidgetBody .lotusPagingTop.lotusPaging ul.lotusInlinelist li a#statusUpdates.filterSelected {
+    background: url(https://raw.githubusercontent.com/JSG1901/Muse/master/JetGo_CenterMenu_Status_ON.png) no-repeat;
+    background-position: 20px 11px;
+    color: transparent;
+}
+body.lotusui30 .lotusContent .lotusStream #activityStreamMain.lotusWidgetBody .lotusPagingTop.lotusPaging ul.lotusInlinelist li a#discover {
+    background: url(https://raw.githubusercontent.com/JSG1901/Muse/master/JetGo_CenterMenu_Discover_OFF.png) no-repeat;
+    background-position: 20px 11px;
+    color: transparent;
+}
+body.lotusui30 .lotusContent .lotusStream #activityStreamMain.lotusWidgetBody .lotusPagingTop.lotusPaging ul.lotusInlinelist li a#discover.filterSelected {
+    background: url(https://raw.githubusercontent.com/JSG1901/Muse/master/JetGo_CenterMenu_Discover_ON.png) no-repeat;
+    background-position: 20px 11px;
+    color: transparent;
+}
+
 body.lotusui30 .lotusBoard .lotusStream #activityStreamMain.lotusWidgetBody .activityStreamNewsItemContainer.lotusPost.lotusPostHover {
     background-color: rgba(0,0,0,0.4);
     border: 5pt solid rgba(255,255,255,0.1);
