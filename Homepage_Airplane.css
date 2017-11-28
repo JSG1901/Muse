@@ -9,10 +9,12 @@ html body.lotusui30_body {
 }
 html body.lotusui30_body #clientCoLogo   {
     background: url(https://raw.githubusercontent.com/JSG1901/Muse/master/JetGo_Logo.png) no-repeat;
-    background-attachment: fixed;
     background-size: contain;
-    width: 250px;
-    height:65px;
+    width: 15%;
+    height: 100px;
+    position: fixed;
+    bottom: 100px;
+    left: 2%;
 }
 html body.lotusui30_body.lconnShareboxCke,
 html body.cke_editable.lconnInlineCommentCke {
@@ -48,8 +50,8 @@ body.lotusui30 .lotusBoard .lotusStream #activityStreamMain.lotusWidgetBody .act
     border-bottom: 1pt solid #eee;
 }
 body.lotusui30 .lotusBoard .lotusStream #activityStreamMain.lotusWidgetBody .lotusPost.lotusPostHover {
-    color: black;
-    font-weight:300;
+    color: white;
+    font-weight:500;
 }
 
 body #activityStreamHeader.lotusHeader {
@@ -136,7 +138,7 @@ body .lotusui30_layout .lotusColLeft,
 body .lotusui30_layout .lotusColLeft:after {
     /* main area of left column background */
     border-left: 1000px solid transparent;
-    background: rgba(0,0,0,0.1);
+    background: transparent;
     width: 1px;
     border-right: 240px solid transparent;
     content: "";
@@ -330,7 +332,7 @@ body.lotusui30 .lotusFlyout .lotusFlyoutHeader .flyoutTitleContainer td.flyoutTi
 body.lotusui30dojo a, 
 body.lotusui30dojo a:visited {
     /* not just the flyout */
-    color: #444;
+    color: #e8a584;
 }
 /* end flyout-popup colors */
 
@@ -465,6 +467,15 @@ body .lotusHeader .shareSome-desc .shareSome-title,
 body .lotusHeader .shareSome-desc .shareSome-title .shareSome-titleSep,
 body .lotusHeader .shareSome-desc {
     color: #fff;
+}
+body.lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .lotusInlinelist.lotusActions a, 
+body.lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .lotusPost .lotusInlinelist a,
+body.lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .lotusInlinelist .timeago, 
+body.lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody a.timeago, 
+body.lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody abbr.timeago,
+body.lotusui30 .lotusMeta {
+    color: rgba(255,255,255,0.5);
+    font-weight: 400;
 }
 /****    smaller screens    ****/
 @media screen and (max-width: 1024px) {
