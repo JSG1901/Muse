@@ -129,7 +129,7 @@ body .lotusui30_layout .lotusColLeft,
 body .lotusui30_layout .lotusColLeft:after {
     /* main area of left column background */
     border-left: 1000px solid transparent;
-    background: transparent;
+    background: rgba(0,0,0,0.1);
     width: 1px;
     border-right: 240px solid transparent;
     content: "";
