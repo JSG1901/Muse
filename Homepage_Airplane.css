@@ -642,9 +642,9 @@ body.lotusui30 #leftSideBGGraphic {
     background-position: 0 0;
     z-index: -2;
     -webkit-animation: slide 3s forwards;
-    -webkit-animation-delay: 3s;
+    -webkit-animation-delay: 4s;
     animation: slide 3s forwards;
-    animation-delay: 3s;
+    animation-delay: 4s;
 }
 
 @-webkit-keyframes slide {
