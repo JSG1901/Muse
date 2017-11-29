@@ -176,6 +176,7 @@ body.lotusui30 .lotusBoard .lotusStream {
     background: rgba(33,31,66,.55);
     border-radius: 10px;
     padding: 20px;
+    min-height: 1200px;
 }
 body.lotusui30 .lotusBoard .lotusStream ul {
     background: transparent;
