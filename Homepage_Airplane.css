@@ -482,14 +482,8 @@ body #lotusColRight #communitiesSectionHeader {
     width: 100%;
     margin: 0 0 13px;
 }
-body #lotusColRight #communitiesSectionHeader {
-    background: url(https://raw.githubusercontent.com/JSG1901/Muse/master/Jet_Go_Label_MostRecentlyUpdated.png) no-repeat;
-    height: 30px;
-    width: 100%;
-    margin: 20px 0 13px;
-}
 body #lotusColRight #filesSectionHeader {
-    background: url(https://raw.githubusercontent.com/JSG1901/Muse/master/Jet_Go_Label_TopCommunities.png) no-repeat;
+    background: url(https://raw.githubusercontent.com/JSG1901/Muse/master/Jet_Go_Label_MostRecentlyUpdated.png) no-repeat;
     height: 30px;
     width: 100%;
     margin: 0 0 13px;
