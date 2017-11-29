@@ -645,6 +645,8 @@ body.lotusui30 #leftSideBGGraphic {
     -webkit-animation-delay: 4s;
     animation: slide 3s forwards;
     animation-delay: 4s;
+    transition-timing-function: ease;
+    -webkit-transition-timing-function: ease;
 }
 
 @-webkit-keyframes slide {
