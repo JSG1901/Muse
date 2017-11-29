@@ -424,12 +424,8 @@ body .lotusui30_layout .lotusColRight .lotusWidget2 {
     margin: 0 0 45px;
 }
 #lotusColRight .lotusSection2 {
+    /* hide all the standard right-side divs */
     display:none;
-}
-#lotusColRight .lotusSection2:last-child {
-    display:block;
-    padding-right: 40px;
-    padding-left: 20px;
 }
 body.lotusui30 .lotusSection2 .lotusSectionFooter .lotusPaging {
     font-size: 13px;
