@@ -415,6 +415,15 @@ body #lotusColRight div#filesDisplayArea .lastUpdated {
     color: #999;
 }
 /* end file display */
+body #homepageLeftNavigationMenuContainer {
+    margin-top: 25px;
+    margin-left: 40px;
+}
+body.lotusui30 #homepageLeftNavigationMenuContainer {
+    position: fixed;
+    top: 100px;
+    left: 10px;
+}
 
 /****    smaller screens    ****/
 @media screen and (max-width: 1024px) {
