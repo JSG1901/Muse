@@ -298,7 +298,7 @@ body .ics-scbanner > .navmenu:hover::after {
     border-bottom: 0.125rem solid #aaa;
 }
 body .lotusStream #activityStreamMain.lotusWidgetBody .streamHeaderWrapper.isSticky .streamHeaderInner {
-    background-color: #eee;
+    background-color: rgba(33,31,66,.55);
 }
 body.lotusui30 .lotusBoard .lotusAddComment .lotusStreamUpdate .lconnRTE .cke_contents.lotusTextCollapsed {
     /* add comments box container in activity stream */
