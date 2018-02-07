@@ -1,0 +1,24 @@
+{
+    "services": [
+        "Customizer"
+    ],
+        "name": "AppleUI look and feel",
+        "title": "Convert Connections look more like it came from Apple",
+        "description": "Example of using Customizer to modify Connections' look and feel",
+        "extensions": [
+            {
+                "name": "AppleUI-ish theme",
+                "type": "com.ibm.customizer.ui",
+                "path": "global",
+                "payload": {
+                    "include-files": [
+                        "scottgood/js/AppleUI.user.js",
+                        "scottgood/css/AppleUI_Communities.css"
+                    ],
+                    "match": {
+                        "user-name": "Scott Good"
+                    }
+                }
+            }
+        ]
+}
